@@ -1,0 +1,21 @@
+% vars used to differentiate between minor language specific differences - like course flavors
+% make sure to set the corresponding variables to true inside your master document like this:
+% \setboolean{Flavor_ECLIPSE}{true}
+% inside the chapters you can then use the commands flavorJAVA, ... to include contents only
+% for a special flavor of the course, e.g.:
+%
+% \flavorJAVA{Tooling support for refactoring in Eclipse: ..... }
+
+\newboolean{Flavor_JAVA}
+\newboolean{Flavor_INTERNAL} % excluded in customer edition
+
+\setboolean{Flavor_JAVA}{false}
+\setboolean{Flavor_INTERNAL}{true}
+
+
+\newcommand{\flavorJAVA}[1] {
+	\ifthenelse{\boolean{Flavor_JAVA}}{#1}{}%
+}
+\newcommand{\flavorINTERNAL}[1] {%
+ 	\ifthenelse{\boolean{Flavor_INTERNAL}}{#1}{}%
+}

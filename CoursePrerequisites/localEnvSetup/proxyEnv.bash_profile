@@ -1,0 +1,10 @@
+export http_proxy=http://proxy.wdf.sap.corp:8080
+export HTTP_PROXY=http://proxy.wdf.sap.corp:8080
+export https_proxy=http://proxy.wdf.sap.corp:8080
+export HTTPS_PROXY=http://proxy.wdf.sap.corp:8080
+export ftp_proxy=http://proxy.wdf.sap.corp:8080
+export FTP_PROXY=http://proxy.wdf.sap.corp:8080
+export all_proxy=http://proxy.wdf.sap.corp:8080
+export ALL_PROXY=http://proxy.wdf.sap.corp:8080
+export no_proxy=*.local,169.254/16,*.sap.corp,*.corp.sap,.sap.corp,.corp.sap
+export NO_PROXY=*.local,169.254/16,*.sap.corp,*.corp.sap,.sap.corp,.corp.sap

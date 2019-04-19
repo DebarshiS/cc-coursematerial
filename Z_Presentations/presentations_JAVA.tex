@@ -1,0 +1,46 @@
+\documentclass[utf8,xcolor=table]{beamer}
+
+\usetheme{sap}
+
+\input presentations_setup
+\input java_support
+\input yaml_support
+\input json_support
+\input graphics_support
+
+\begin{document}
+
+\setboolean{Flavor_JAVA}{true}
+\setboolean{Flavor_INTERNAL}{false}
+
+
+\includeJavaPresentation{Abstract}
+\includeJavaPresentation{CoursePrerequisites}
+
+%\insertday{DAY 1}
+\includeCommonPresentation{MicroServiceArchitecture}
+\includeCommonPresentation{SpringBasics}
+\includeCommonPresentation{CreateMicroservice}
+
+%\insertday{DAY 2}
+\includeCommonPresentation{CloudFoundryBasics}
+\includeJavaPresentation{ConnectDatabase}
+
+%\insertday{DAY 3}
+\includeJavaPresentation{LoggingTracing}
+\includeJavaPresentation{Service2ServiceCommunication}
+
+%\insertday{DAY 4}
+\includeJavaPresentation{Security}
+\includeCommonPresentation{MultiTenancy}
+
+
+%\insertday{DAY 5}
+\includeJavaPresentation{TestStrategy}
+\includeJavaPresentation{ContinuousDelivery}
+
+%\insertOptionals
+\includeCommonPresentation{SpringBoot}
+\includeCommonPresentation{MicroServiceDesign}
+
+\end{document}

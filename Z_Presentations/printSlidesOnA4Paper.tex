@@ -1,0 +1,15 @@
+% Use this file in order to print slides on A4 paper with room for notes under each slide.
+% Reference: http://www.guidodiepen.nl/2009/07/creating-latex-beamer-handouts-with-notes/
+
+% Note: Also add "handout" option to beamer documentclass statement at beginning of document
+%       in order to remove overlays and print each slide only once:
+%\documentclass[utf8,handout]{beamer}
+
+\usepackage{handoutWithNotes}
+
+% Uncomment the corresponding line to choose your preferred printing format
+%\pgfpagesuselayout{1 on 1 with notes}[a4paper,border shrink=5mm]
+\pgfpagesuselayout{2 on 1 with notes landscape}[a4paper,border shrink=5mm] 
+
+\pgfpageslogicalpageoptions{1}{border code=\pgfsetlinewidth{2.5bp}\pgfusepath{stroke}}
+\pgfpageslogicalpageoptions{2}{border code=\pgfsetlinewidth{2.5bp}\pgfusepath{stroke}}

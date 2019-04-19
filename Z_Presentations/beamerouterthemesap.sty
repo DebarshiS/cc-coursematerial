@@ -1,0 +1,47 @@
+\mode<presentation>
+
+\setbeamersize{text margin left=.62cm,text margin right=.62cm}
+\setbeamertemplate{navigation symbols}{}
+\setbeamerfont{footline}{size=\Tiny,series=\normalfont}
+
+\newcommand{\rulewidth}{.93\paperwidth}
+\newcommand{\ruleborderwidth}{.039\paperwidth}
+
+\defbeamertemplate*{headline}{sap}
+{% 
+  \leavevmode%
+  \hspace*{\ruleborderwidth}\hbox{%
+  \begin{beamercolorbox}[wd=\rulewidth,ht=2mm,dp=0cm]{headline}%
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\defbeamertemplate*{frametitle}{sap}
+{% 
+  \begin{beamercolorbox}[wd=\rulewidth,ht=2.2em,dp=1ex,ignorebg]{frametitle}%
+    \usebeamerfont{frametitle}\hspace{.5ex}\insertframetitle\par
+    \hspace{.5ex}\usebeamerfont{framesubtitle}\insertframesubtitle
+  \end{beamercolorbox}%
+  \vskip-.7em%
+  \begin{beamercolorbox}[wd=\rulewidth,ht=.5pt,dp=0ex]{frametitle}%
+  \end{beamercolorbox}%
+  \vskip0pt%
+}
+
+\defbeamertemplate*{footline}{sap}
+{%
+  \leavevmode%
+  \hspace*{\ruleborderwidth}\hbox{%
+  \begin{beamercolorbox}[wd=\rulewidth,ht=4ex,dp=.2cm]{footline}%
+    \hspace*{2ex}%
+    \usebeamerfont{footline}%
+    \insertpart\ -\ \textcopyright\ SAP SE \the\year%
+    \hfill%
+    \insertframenumber%
+    \hspace*{2ex}%
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\mode
+<all>

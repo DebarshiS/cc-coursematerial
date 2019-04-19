@@ -1,0 +1,77 @@
+\setbeamercovered{dynamic}
+\setbeamertemplate{frametitle continuation}[from second]
+\setbeamercolor{background canvas}{bg=}
+
+\subtitle{~}
+\author{~}
+
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+
+\usepackage{booktabs}
+
+\usepackage{tikz,wallpaper}
+\usetikzlibrary{shapes,backgrounds,patterns,fadings}
+
+\input ../Z_Presentations/bib_setup
+
+\definecolor[named]{comments}{HTML}{808080}
+\definecolor[named]{identifiers}{HTML}{FF0000}
+\definecolor[named]{blockbackground}{HTML}{F1EEE9}
+\definecolor[named]{strings}{HTML}{0000FF}
+\usepackage[final]{listings}
+
+\newcommand*{\partwallpaper}{}
+
+\newcommand{\includepresentation}[2][backgrounds/default.jpg]{
+	\renewcommand*{\partwallpaper}{#1}
+	\begin{bibunit}[unsrt]
+	\input #2
+	{
+	\frame{\begin{center}Questions about \emph{\insertpart}?\end{center}}
+	\IfFileExists{#2.bib}{
+		\begin{frame}{References}
+			\scriptsize
+			\putbib[#2]
+		\end{frame}
+	}{}
+} 
+\end{bibunit}
+} % end of includepresentation
+
+\newcommand{\includeCommonPresentation}[1]{
+	\IfFileExists{backgrounds/#1.jpg}{
+		\includepresentation[backgrounds/#1.jpg]{../#1/#1_presentation}
+	} {
+		\includepresentation{../#1/#1_presentation}
+	}
+}
+
+\newcommand{\includeJavaPresentation}[1]{
+	\IfFileExists{backgrounds/#1.jpg}{
+		\includepresentation[backgrounds/#1.jpg]{../#1/#1_presentation_JAVA}
+	} {
+		\includepresentation{../#1/#1_presentation_JAVA}
+	}
+}
+
+\newcommand{\insertday}[1]{%
+\part{#1}
+\renewcommand*{\partwallpaper}{}
+	\frame{\begin{center}\insertpart\end{center}}
+}
+
+\AtBeginDocument{%
+	\input  ../Z_Setup/flavor_vars_setup
+}
+
+\definecolor{links}{HTML}{2A1B81}
+\newcommand{\colorlink}[2]{\href{#1}{\color{links}\textbf{\underline{#2}}}}
+\newcommand{\codealt}[1]{\texttt{#1}}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}

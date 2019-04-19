@@ -1,0 +1,112 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Cloud Foundry",
+		"_postman_id": "f6567db0-bf0b-5b17-4b50-0a8723fd5618",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Get Authcode from FakeIdP",
+			"request": {
+				"url": "https://xsuaa-monitoring-idp.cfapps.sap.hana.ondemand.com/getauthcode",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"uaaURL\": \"https://d012345trial.authentication.sap.hana.ondemand.com\",\n\t\"clientID\": \"sb-bulletinboard-d012345!t500\",\n\t\"clientSecret\": \"3zEDc6FHfAioa4EwZGBcj7FDihg=\",\n\t\"username\": \"testuser\",\n\t\"samlAttributes\": {\n\t\"Groups\": [\"UG_CC_M2_USER\"]\n},\n\t\"redirectURI\":\"https://d012345trial-approuter-d012345.cfapps.sap.hana.ondemand.com/login/callback\"\n}"
+				},
+				"description": "Adapt the Body to your configurartion. Especially you need to chnage the \"clientSecret\". This is the \"clientsecret\" of the XSUAA Client Credentials String in VCAP_SERVICES.\n\nFind the \"authcode\" in the Response Body\n\nNote: The \"authcode\" can be used only once to request the JSESSIONID from the approuter"
+			},
+			"response": []
+		},
+		{
+			"name": "2. Get JSESSIONID with Auth Code ",
+			"request": {
+				"url": "https://d012345trial-approuter-d012345.cfapps.sap.hana.ondemand.com/login/callback?code=",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "locationAfterLogin=/DUMMY",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "Prerequisite: Install and activate Postman Interceptor\n\nEnter the \"authcode\" in the URL ?code=\n\nFind the JSESSIONID in the revceived Cookies"
+			},
+			"response": []
+		},
+		{
+			"name": "3. GET ALL with JSESSIONID",
+			"request": {
+				"url": "https://d012345trial-approuter-d012345.cfapps.sap.hana.ondemand.com/ads/api/v1/ads",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "Prerequisite: Activate Postman Interceptor\n\nEnter the received JSESSIONID in the \"Cookie\" header"
+			},
+			"response": []
+		},
+		{
+			"name": "4. Get X-Csrf-Token for POST / PUT",
+			"request": {
+				"url": "https://d012345trial-approuter-d012345.cfapps.sap.hana.ondemand.com",
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-csrf-token",
+						"value": "fetch",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "Prerequisite: Activate Postman Interceptor\n\nEnter the received JSESSIONID in the \"Cookie\" header"
+			},
+			"response": []
+		},
+		{
+			"name": "5. POST with JSESSION-ID and xsrf token",
+			"request": {
+				"url": "https://d012345trial-approuter-d012345.cfapps.sap.hana.ondemand.com/ads/api/v1/ads",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=",
+						"description": ""
+					},
+					{
+						"key": "x-csrf-token",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\":\"some title\"\n}"
+				},
+				"description": "Prerequisite: Activate Postman Interceptor\n\nEnter the received JSESSIONID in the \"Cookie\" header\nEnter the received token in the \"x-csrf-token\" header"
+			},
+			"response": []
+		}
+	]
+}

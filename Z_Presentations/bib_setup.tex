@@ -1,0 +1,12 @@
+\usepackage{bibunits}
+
+\bibliographystyle{unsrt}
+
+\setbeamercolor{bibliography entry journal}{fg=black,bg=white}
+\setbeamercolor{bibliography entry note}{fg=black,bg=white}
+\setbeamercolor{bibliography entry howpublished}{fg=black,bg=white}
+
+% Instead of bu<i>.aux, use presentation*.<i>.aux
+\makeatletter
+\renewcommand{\@bibunitname}{\jobname.\the\@bibunitauxcnt}
+\makeatother

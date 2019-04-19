@@ -1,0 +1,33 @@
+\mode<presentation>
+
+\usefonttheme{structurebold}
+\setbeamerfont{part title}{size=\LARGE}
+\setbeamerfont{part date}{size=\tiny}
+\pgfdeclareimage[height=0.07\paperheight]{SAP logo for part page}{themes/sap/SAP}
+
+\defbeamertemplate*{part page}{sap}
+{% 
+  \vskip+1.7em%
+  \usebeamercolor[fg]{part title}\usebeamerfont{part title}\insertpart\\[.5em]
+  \usebeamercolor[fg]{part date}\usebeamerfont{part date}Version Date: \today
+}
+
+\AtBeginPart{{%
+  \usebackgroundtemplate{%
+    \hspace{0.035\paperwidth}%
+    \begin{tikzpicture}
+      % \node[inner sep=0,above right] at (0,0) {\pgfuseimage{SAP logo for part page}};
+      \node[opacity=.7,text opacity=1,inner xsep=.6mm,inner ysep=.4mm,above left,fill=white,rounded corners=2pt] at (.93\paperwidth,0) {\pgfuseimage{SAP logo for part page}};
+      \fill[white,opacity=.75] (0,62mm) rectangle +(0.93\paperwidth,28mm);
+      \fill[structure.fg] (0,62mm+28mm) rectangle +(0.93\paperwidth,2mm);
+    \end{tikzpicture}
+  }
+  \begin{frame}[plain,t]
+    \ThisTileWallPaper{\paperwidth}{\paperheight}{\partwallpaper}
+    \partpage
+  \end{frame}
+}}
+
+
+\mode
+<all>
