@@ -60,7 +60,7 @@ Because of that most requests are rejected immediately (shown in blue).
 ## Demonstration
 
 To see live information in the dashboard, use the [pre-deployed](https://cc-hystrix-demo.cfapps.sap.hana.ondemand.com/hystrix) dashboard.
-The branch [hystrix-dashboard-demo](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-boot/tree/hystrix-dashboard-demo) contains the code necessary for this demonstration.
+The branch [hystrix-dashboard-demo](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-boot/tree/hystrix-dashboard-demo) contains the code necessary for this demonstration.
 Deploy the microservice, and connect the dashboard to `https://bulletinboard-ads-d012345.cfapps.sap.hana.ondemand.com/hystrix.stream`.
 
 We use JMeter to access the microservice with a constant stream of requests.
@@ -93,7 +93,7 @@ The details of this are outlined [here](https://github.com/Netflix/Hystrix/wiki/
  - Any microservice, including the dashboard, deployed on Cloud Foundry can only be accessed via HTTPs.
    Dashboard versions prior to 1.5.1 depended on a library embedded via a HTTP URL. As such, modern browsers refused
    to download this library. This was fixed with Hystrix 1.5.1.
- - The dashboard only shows "Loading..." before the first Hystrix Command is used in the application. Instead of reloading the page again and again (exhausting the five concurrent sessions, see above), it suffices to just run a single Hystrix Command. In our Proof of Concept implementation we included a [dummy command](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-boot/blob/master/src/main/java/com/sap/bulletinboard/ads/BulletinboardAdsApplication.java) which is executed once on startup.
+ - The dashboard only shows "Loading..." before the first Hystrix Command is used in the application. Instead of reloading the page again and again (exhausting the five concurrent sessions, see above), it suffices to just run a single Hystrix Command. In our Proof of Concept implementation we included a [dummy command](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-boot/blob/master/src/main/java/com/sap/bulletinboard/ads/BulletinboardAdsApplication.java) which is executed once on startup.
 
 ## Further Reading
 - https://github.com/Netflix/Hystrix/wiki/Dashboard

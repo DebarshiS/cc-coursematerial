@@ -32,7 +32,7 @@ Add the following dependencies to your `pom.xml` using the XML view of Eclipse:
 ```
 
 #### Example
-Github project: https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-boot 
+Github project: https://github.com/ccjavadev/cc-bulletinboard-ads-spring-boot 
 
 ## Details
 #### `/env` endpoint

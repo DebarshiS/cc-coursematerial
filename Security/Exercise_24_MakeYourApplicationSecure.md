@@ -86,7 +86,7 @@ servletContext.addFilter(AbstractSecurityWebApplicationInitializer.DEFAULT_FILTE
 The `DelegatingFilterProxy` intercepts the requests and adds a `ServletFilter` chain between the web container and your web application, so that the Spring Security framework can filter out unauthenticated and unauthorized requests.
 
 ### Note on how to enable security checks on method level
-Now we have enabled security centrally on the web level as defined in `WebSecurityConfig`. Beside of that you have the option to do the authorization checks on method level using [Method Security](http://docs.spring.io/autorepo/docs/spring-security/current/reference/htmlsingle/#jc-method). In this [(spring boot) example](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-boot/commit/c3150c398ba7e18f703dd06e8c5943a261445293) we implement our own expressions by making use of the new [expression-based access control](http://docs.spring.io/spring-security/site/docs/current/reference/html/el-access.html).
+Now we have enabled security centrally on the web level as defined in `WebSecurityConfig`. Beside of that you have the option to do the authorization checks on method level using [Method Security](http://docs.spring.io/autorepo/docs/spring-security/current/reference/htmlsingle/#jc-method). In this [(spring boot) example](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-boot/commit/c3150c398ba7e18f703dd06e8c5943a261445293) we implement our own expressions by making use of the new [expression-based access control](http://docs.spring.io/spring-security/site/docs/current/reference/html/el-access.html).
 
 ## Step 3: Setup Security for Component Tests
 
@@ -218,7 +218,7 @@ Subsequently you will need to log-in to your application again, so that the auth
 
 ## Further Reading
 - [Spring Security Reference](http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#abstractsecuritywebapplicationinitializer)
-- [Method Security Example](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-boot/commit/c3150c398ba7e18f703dd06e8c5943a261445293)
+- [Method Security Example](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-boot/commit/c3150c398ba7e18f703dd06e8c5943a261445293)
 - [Expression-Based Access Control](https://docs.spring.io/spring-security/site/docs/3.0.x/reference/el-access.html)
 
 [9]: https://jam4.sapjam.com/wiki/show/d2dgJlWR9IpwQsLOCmyJj9?_lightbox=true "SAP CP Cockpit UIs for XSUAA "
