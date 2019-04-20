@@ -23,7 +23,7 @@ The following table highlights the most important differences.
 
 | Topic  | Spring Web MVC version | Spring Boot version | Read more   |
 |--------|------------------------|---------------------|-------------|
-| Sample | [GitHub: Spring Web MVC](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc)  | [GitHub: Spring Boot](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-boot) | |
+| Sample | [GitHub: Spring Web MVC](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc)  | [GitHub: Spring Boot](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-boot) | |
 | Initial Project Setup | Copy a sample Project, remove unrequired stuff | Make use of [Spring Initializer](http://start.spring.io/) to bootstrap your aplication, also part of Eclipse STS | [Spring Boot STS Tutorial](https://spring.io/blog/2015/03/18/spring-boot-support-in-spring-tool-suite-3-6-4) |
 | Adding classpath dependencies | add library as dependency to pom, you need to manage version/order/mutual interference  | add spring boot starter packages as managed dependencies, that were tested in combination | [Dependency Management](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/SpringBoot/Readme.md#dependency-management) |
 | Maven Plugin to run (package) an application “in-place” | `mvn tomcat7:run` deploys your application on Tomcat | `mvn spring-boot:run` runs your Spring Boot application. `mvn spring-boot:repackage` repackages your jar/war to be executable. | [Spring Boot Maven Plugin](http://docs.spring.io/spring-boot/docs/1.4.2.RELEASE/maven-plugin/)|
@@ -108,7 +108,7 @@ public static class WebConfiguration {
 ## Further References
 - [Spring.io: Spring Boot Features](http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features.html)
 - [Spring.io: DevTools](http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html)
-- [Sample Solution: Spring Web MVC](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc) 
+- [Sample Solution: Spring Web MVC](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc) 
 - [Sample Solution: Spring Boot](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-boot) 
 - [Spring Framework Reference](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/index.html)
 - [Spring.io: Spring (Boot) Tutorials](https://spring.io/guides)

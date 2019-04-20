@@ -7,7 +7,7 @@ After this exercise you know how to implement a JPA Entity leveraging the JPA an
 The task of this exercise is to get familiar with the most common JPA annotations using JUnit Tests to motivate their usage.
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-8-2-Use-Repository-To-Access-Database`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-8-2-Use-Repository-To-Access-Database).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-8-2-Use-Repository-To-Access-Database`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-8-2-Use-Repository-To-Access-Database).
 
 ## Step 1: Create JUnit test class 
 Create JUnit Test Case `AdvertisementRepositoryTest` in test-package `com.sap.bulletinboard.ads.models`. In Eclipse select `File - New - Other`. In the next dialog, enter `JUnit Test Case`. The default settings should be OK.
@@ -162,7 +162,7 @@ Within this Exercise you have enhanced your database model by some fields, which
 > - **Expose information** via API differently. At SAP customer facing APIs should follow the guideline described in [REST API Harmonization Direction (CTO Whitepaper)](https://jam4.sapjam.com/wiki/show/eBIJTH4EwfD15ymE2nv2pG), e.g. `createdAt` timestamp format must follow ISO 8601.
 > - **Hide internals** such as `createdBy`.
 
-Have a look into the last commit in our [solution branch `solution-9-2-Introduce-Data-Transfer-Object-DTO`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-9-2-Introduce-Data-Transfer-Object-DTO). Note: for simplicity's sake we have implemented the mapping (assembling) as part of the DTO class.
+Have a look into the last commit in our [solution branch `solution-9-2-Introduce-Data-Transfer-Object-DTO`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-9-2-Introduce-Data-Transfer-Object-DTO). Note: for simplicity's sake we have implemented the mapping (assembling) as part of the DTO class.
 
 ## Used Frameworks and Tools
 - [Hamcrest Matchers](http://hamcrest.org/JavaHamcrest/)

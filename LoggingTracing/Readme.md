@@ -269,7 +269,7 @@ logger.info(sqlMarker, "starting query: {}", query);
 ```
 [Source](http://www.slf4j.org/api/org/slf4j/Marker.html)
 
-Then, as shown in [Exercise 13](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/solution-13-Use-SLF4J-Features/src/main/resources/logback.xml), such markers can be used to filter the log output.
+Then, as shown in [Exercise 13](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-13-Use-SLF4J-Features/src/main/resources/logback.xml), such markers can be used to filter the log output.
 
 **Custom Fields**:
 Using custom fields you can add additional information in a structured way.

@@ -12,7 +12,7 @@ The task in this exercise is to implement the REST-services with responses as de
 | GET         | Read       | 200 (OK), list of advertisements | 200 (OK), single ad; 404 (Not Found), if no advertisement with this ID exists |
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can check out the branch [`origin/solution-1-Activate-Actuator`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-1-Activate-Actuator).
+Continue with your solution of the last exercise. If this does not work, you can check out the branch [`origin/solution-1-Activate-Actuator`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-1-Activate-Actuator).
 
 ## Step 1: Create Advertisement Service
 The goal is to implement the service endpoints as specified in the table above.
@@ -71,7 +71,7 @@ HttpHeaders headers = new HttpHeaders();
 headers.setLocation(new URI(uriComponents.getPath()));
 ```
 - Choose a trivial method of generating an ID, e.g. via static counter or by examining the size of the hash map. We will replace the map with database persistence in [Exercise 8](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/ConnectDatabase/Exercise_8_Part1_ConfigurePersistence.md).
-- Find a sample solution [here](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/solution-3-Create-Ads-Endpoints/src/main/java/com/sap/bulletinboard/ads/controllers/AdvertisementController.java). Note: The sample solution represents the final solution after step 5.
+- Find a sample solution [here](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-3-Create-Ads-Endpoints/src/main/java/com/sap/bulletinboard/ads/controllers/AdvertisementController.java). Note: The sample solution represents the final solution after step 5.
 - Note that we offer a relative [URI-reference](https://tools.ietf.org/html/rfc3986#section-4.2) as location
 - Consider the `Troubleshooting` section below.
 - Use the `AdvertisementList` class instead of `Iterable<Advertisement>` as collection of Advertisements. With that we are able to expose the JSON as recommended in [SAP's Guidelines for Future REST API Harmonization](https://www.sap.com/documents/2017/12/ba1141bf-e37c-0010-82c7-eda71af511fa.html).
@@ -98,7 +98,7 @@ Ensure that the advertisement you created before is returned.
 - If you experience any problems while implementing the following exercise steps, make sure to check the `Console` output in Eclipse. For most common errors Tomcat/Spring show a helpful error message, even if the output shown in the browser (or Postman) does not help.
 - **The POST-request returns a "bad request"(status code: 400) and I'm unable to debug it.** One possible reason could be that your Advertisement class does not specify a constructor without parameters (either implicitly or explicitly). Explanation: The [Jackson JSON provider](../Knowledge/JSONConversion.md) requires a default constructor. In this case you will also not be able to debug, as the Jackson JSON provider intercepts the request and tries to convert the entity before your method in the AdvertisementController is executed. 
 Before you re-deploy your application to the Tomcat server, a `clean...` of your Tomcat server might be required.
-- Also, feel free to have a look at our [solution](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-3-Create-Ads-Endpoints).
+- Also, feel free to have a look at our [solution](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-3-Create-Ads-Endpoints).
 
 ## [Optional] Step 4: Return Not Found status
 - In case the advertisement for a specific ID is requested (`/ads/{id}`) but no advertisement for this ID exists, the service method should return the HTTP status code 404 (Not Found). To do this, simply raise a `com.sap.bulletinboard.ads.controllers.NotFoundException`.

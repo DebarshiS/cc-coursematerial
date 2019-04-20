@@ -20,10 +20,10 @@ The RabbitMQ offers some good tutorials giving more detail: https://www.rabbitmq
 ## Code Example
 In our code examples we use the [AMQP](https://www.amqp.org/) API as it promises to be less coupled to the actual implementation.
 
-The [CloudRabbitConfig](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/solution-20-Use-Message-Queues/src/main/java/com/sap/bulletinboard/ads/config/CloudRabbitConfig.java) bean uses the `Spring Cloud` plugin to parse the `VCAP_SERVICES` environment variables and provide the `AmqpAdmin` and `AmqpTemplate` beans which can be used to communicate with the bound RabbitMQ backing service.
+The [CloudRabbitConfig](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-20-Use-Message-Queues/src/main/java/com/sap/bulletinboard/ads/config/CloudRabbitConfig.java) bean uses the `Spring Cloud` plugin to parse the `VCAP_SERVICES` environment variables and provide the `AmqpAdmin` and `AmqpTemplate` beans which can be used to communicate with the bound RabbitMQ backing service.
 
 ### Publishing
-Before publishing individual messages, we setup the system once. In our simple example we just declare a queue (which will automatically be bound to the default exchange), see [constructor code in StatisticsServiceClient](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/solution-20-Use-Message-Queues/src/main/java/com/sap/bulletinboard/ads/services/StatisticsServiceClient.java).
+Before publishing individual messages, we setup the system once. In our simple example we just declare a queue (which will automatically be bound to the default exchange), see [constructor code in StatisticsServiceClient](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-20-Use-Message-Queues/src/main/java/com/sap/bulletinboard/ads/services/StatisticsServiceClient.java).
 
 Publishing of individual messages is wrapped by a Hystrix Command `IncrementCounterCommand`, as publishing may fail or run into timeouts. As described above, we use the default exchange, which is why we use the routing key to specify the queue into which the message should be published.
 
@@ -32,7 +32,7 @@ The code used to receive messages is more coupled to the RabbitMQ implementation
 
 As in the publishing case, the `CloudRabbitConfig` bean helps us defining the `AmqpAdmin` and `AmqpTemplate` beans. 
 
-Using the [StatisticsListener](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/solution-21-Receive-MQ-Messages/src/main/java/com/sap/bulletinboard/ads/services/StatisticsListener.java) bean we can register listener implementations for specific queues. Note that the queue must be declared first in case it does not already exist in the queue system.
+Using the [StatisticsListener](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-21-Receive-MQ-Messages/src/main/java/com/sap/bulletinboard/ads/services/StatisticsListener.java) bean we can register listener implementations for specific queues. Note that the queue must be declared first in case it does not already exist in the queue system.
 
 ## Reliable Messaging in-depth learning module
 The [Reliable Messaging](https://github.wdf.sap.corp/cloud-native-dev/resilience/tree/master/ServiceToService) module provides a basic understanding about RabbitMQ Message Broker using the Advanced Message Queue Protocol (AMQP) and demonstrates how to implement that using Spring AMQP. For implementing reliable messaging we use and explain concepts like “publisher confirms” and “consumer acknowledgements” to avoid message loss. This includes also an appropriate handling of messages when failures happen in any part of the system.

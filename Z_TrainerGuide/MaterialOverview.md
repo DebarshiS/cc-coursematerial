@@ -15,11 +15,11 @@ The more experienced java developers can select them, either when they have fini
 
 ### Sample solution branches
 For each exercise exists a sample solution. After you have chosen the right branch e.g. `Solution Exercise 5-1: Validation and Exceptions` in the sample Github projects 
-select `Commits` ([example](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/commits/solution-5-ValidationExceptions)). 
+select `Commits` ([example](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/commits/solution-5-ValidationExceptions)). 
 The last commit (or last two commits) shows the code, that was added as part of the exercise.
 
 Github projects with sample solution
-- [cc-bulletinboard-ads-spring-webmvc](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc)
+- [cc-bulletinboard-ads-spring-webmvc](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc)
 - [cc-bulletinboard-systemtest](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-systemtest)
 
 ### Detailed information

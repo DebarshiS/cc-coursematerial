@@ -6,7 +6,7 @@ In this exercise you will learn how to setup a connection to the database runnin
 Furthermore, you will get to know the `VCAP_SERVICES` environment variable and understand how it can be used for local databases.
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-6-Deploy-Ads-On-CF`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-6-Deploy-Ads-On-CF).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-6-Deploy-Ads-On-CF`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-6-Deploy-Ads-On-CF).
 
 **[Changes](#changes-since-video-recording) since video recording**.
 
@@ -40,7 +40,7 @@ Starting from next exercise (when the tables are created), you can view the cont
 
 
 ## Step 2: Understand VCAP_SERVICES
-Open the file [`localEnvironmentSetup.bat`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/master/localEnvironmentSetup.bat) (or `localEnvironmentSetup.sh`) in an editor.
+Open the file [`localEnvironmentSetup.bat`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/master/localEnvironmentSetup.bat) (or `localEnvironmentSetup.sh`) in an editor.
 Find the definition of the `VCAP_SERVICES` local variable and understand how it is used to define the database connection information.
 
 ## Step 3: Configure your Eclipse Tomcat Server
@@ -50,7 +50,7 @@ your application in Eclipse, these environment variables needs to be applied to 
 - In the server view right-click your server and choose **Open**.
 - Select **Open launch configuration**
 - In the Edit launch configuration properties dialog switch to the **`Environment`** tab.
-- Add variable value pairs for these variables `VCAP_APPLICATION`, `VCAP_SERVICES` and `USER_ROUTE`; you can lookup the values from [`localEnvironmentSetup.bat`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/master/localEnvironmentSetup.bat).
+- Add variable value pairs for these variables `VCAP_APPLICATION`, `VCAP_SERVICES` and `USER_ROUTE`; you can lookup the values from [`localEnvironmentSetup.bat`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/master/localEnvironmentSetup.bat).
 
 
 ## Changes since video recording

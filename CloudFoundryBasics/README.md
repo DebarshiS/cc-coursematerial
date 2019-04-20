@@ -16,7 +16,7 @@ Please have a look into the One SAP CP Platform Guide (Neo vs. Cloud Foundry) an
 
 This section shows how you can try some CF commands on your own, or do a demo for others. Ensure that you've requested a trial space and that you've installed the CF Client as described here: [CF @SAP CP Help](https://help.cf.sap.hana.ondemand.com/).
 
-Check out an application that can be deployed without depending services e.g. [`origin/solution-2-Hello-World-Resource`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-2-Hello-World-Resource).
+Check out an application that can be deployed without depending services e.g. [`origin/solution-2-Hello-World-Resource`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-2-Hello-World-Resource).
 
 #### Login to your personal trial org
 Explain that you can create an org per team or product. Explain that you typically would have per org different spaces that reflects the different usage types e.g. test, productive, performance. 

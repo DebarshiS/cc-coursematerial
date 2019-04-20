@@ -6,7 +6,7 @@ Get familiar with the service related commands of the Cloud Foundry CLI, learn h
 The task is to get the Advertisement service including the persistency running on Cloud Foundry. Therefore the deployed application must be bound to a PostgreSQL service, offered by Cloud Foundry.
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-9-Implement-JPA-Entity`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-9-Implement-JPA-Entity).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-9-Implement-JPA-Entity`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-9-Implement-JPA-Entity).
 
 ## Step 1: Create CF PostgreSQL Service
 Create on Cloud Foundry a service instance with name `postgres-bulletinboard-ads`. 

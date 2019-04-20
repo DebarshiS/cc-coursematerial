@@ -4,7 +4,7 @@ Exercise 6: Deploy Ads on Cloud Foundry
 Get familiar with the basic commands of the Cloud Foundry CLI, learn how to deploy your advertisement service into the cloud, and understand how microservices are managed.
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [origin/solution-5-ValidationExceptions](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-5-ValidationExceptions).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [origin/solution-5-ValidationExceptions](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-5-ValidationExceptions).
 
 Ensure that you've created your own trial space on the Cloud Foundry as described as part of the [Course Prerequisites](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CoursePrerequisites/README.md):
 

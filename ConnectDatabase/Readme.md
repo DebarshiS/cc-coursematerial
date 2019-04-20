@@ -129,7 +129,7 @@ Prepare your command line:
 - increase font size
 - increase screen buffer size (e.g. 250x4000)
 
-Check out an application that depends on a postgres database service e.g. [`origin/solution-10-Deploy-Ads-With-DB-Service-On-CF`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-10-Deploy-Ads-With-DB-Service-On-CF).
+Check out an application that depends on a postgres database service e.g. [`origin/solution-10-Deploy-Ads-With-DB-Service-On-CF`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-10-Deploy-Ads-With-DB-Service-On-CF).
 
 ## Create Service and push your Application
 Go to the project root folder.

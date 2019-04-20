@@ -15,7 +15,7 @@ In this exercise we provide the `CloudDatabaseConfig` class which sets up a CRUD
 
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-6-Deploy-Ads-On-CF`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-6-Deploy-Ads-On-CF).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-6-Deploy-Ads-On-CF`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-6-Deploy-Ads-On-CF).
 
 ## Step 1: Add Maven dependencies
 Add the following dependencies to your `pom.xml` using the XML view of Eclipse **at the end of the <dependencies> list**:

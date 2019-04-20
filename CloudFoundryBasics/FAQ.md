@@ -51,7 +51,7 @@ The generic answer is: **SAP will deploy Dynatrace for all internal and cloud sy
 - See also the general CF documentation on [Accessing Services with SSH](https://docs.cloudfoundry.org/devguide/deploy-apps/ssh-services.html)
 
 ### Q: Standard Endpoints for health checks?
-We recommend using Spring Boot Actuator for this purpose and selectively enable the endpoints you want. See the exercise in the course [here](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/solution-24-Make-App-Secure/src/main/java/com/sap/bulletinboard/ads/config/WebSecurityConfig.java).
+We recommend using Spring Boot Actuator for this purpose and selectively enable the endpoints you want. See the exercise in the course [here](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-24-Make-App-Secure/src/main/java/com/sap/bulletinboard/ads/config/WebSecurityConfig.java).
 
 **Attention: Make sure to secure your actuator endpoints as described [here](https://wiki.wdf.sap.corp/wiki/display/PSSEC/Spring+Boot+-+Trace+Issue).**
 

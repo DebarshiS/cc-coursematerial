@@ -15,7 +15,7 @@ The approuter has these main functions:
 
 ## Prerequisite
 
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [origin/solution-19-Transfer-CorrelationID](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-19-Transfer-CorrelationID).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [origin/solution-19-Transfer-CorrelationID](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-19-Transfer-CorrelationID).
 
 Ensure that [Node.JS including its NPM Packager Manager](https://nodejs.org/en/) is installed: 
 ```

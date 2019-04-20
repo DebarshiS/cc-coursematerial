@@ -9,7 +9,7 @@ Get familiar with the provided web application project setup and understand how 
 ## Prerequisite - Import project into Eclipse
 - Run `VirtualBox` or `VMware` and start your Virtual Machine (VM).
 - Start Eclipse IDE **Important: If you are asked for a workspace, make sure to use the default workspace at `/home/vagrant/workspace`**.
-- Import `initial` branch of [Git Project](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc):
+- Import `initial` branch of [Git Project](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc):
     - Select `File - Import - Git - Projects from Git`. 
     - In the next dialog, select `Clone URI`. In the next dialog, enter the URI `git@github.wdf.sap.corp:cc-java/cc-bulletinboard-ads-spring-webmvc.git`. Note: do not change any user/password or http/ssh settings.
     - **Important**: Choose **`initial`** as `Initial branch`

@@ -112,4 +112,4 @@ Create a new method in your code base and paste the comments from below. Now you
 - [Tomcat Web Server](http://tomcat.apache.org/)
 
 ## Further References
-- Have a look at the [sample solution](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-pre-exercises)
+- Have a look at the [sample solution](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-pre-exercises)

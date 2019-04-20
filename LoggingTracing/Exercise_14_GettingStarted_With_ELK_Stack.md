@@ -5,7 +5,7 @@ Exercise 14: Getting Started with ELK
 The task of this exercise is to get familiar with the log output of Cloud Foundry and learn how you can analyze logs in Kibana as part of the provided ELK stack.
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-13-Use_SLF4J_Features`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-13-Use-SLF4J-Features)
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-13-Use_SLF4J_Features`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-13-Use-SLF4J-Features)
 
 Ensure that you've provided a PostgreSQL service with name `postgres-bulletinboard-ads` on CF [as explained in Exercise 10](/ConnectDatabase/Exercise_10_DeployAdsWithDBServiceOnCF.md).
 

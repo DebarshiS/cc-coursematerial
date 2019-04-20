@@ -10,7 +10,7 @@ The goal of this exercise is that you learn how to send a message to inform othe
 Note that in this exercise we will only send messages. Receiving and processing is handled in the next excercise.
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-19-Transfer-CorrelationID`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-19-Transfer-CorrelationID).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-19-Transfer-CorrelationID`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-19-Transfer-CorrelationID).
 
 ## Step 1: Add Maven dependency
 Add the `spring-rabbit` dependency to your `pom.xml`:
@@ -91,7 +91,7 @@ In the case of RabbitMQ a similar approach is not easily possible.
 Instead, we just provide mock instances of every queue-related bean that is defined in the `CloudRabbitConfig` class.
 
 #### Create `MockRabbitConfig`
-As part of the `src/test/java` source folder create a new class `MockRabbitConfig` in the package `com.sap.bulletinboard.ads.config` and copy the code from [here](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/solution-20-Use-Message-Queues/src/test/java/com/sap/bulletinboard/ads/config/MockRabbitConfig.java). With that there is no need to mock the `StatisticsServiceClient`. 
+As part of the `src/test/java` source folder create a new class `MockRabbitConfig` in the package `com.sap.bulletinboard.ads.config` and copy the code from [here](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-20-Use-Message-Queues/src/test/java/com/sap/bulletinboard/ads/config/MockRabbitConfig.java). With that there is no need to mock the `StatisticsServiceClient`. 
 
 After that the tests should run again.
 
@@ -134,7 +134,7 @@ However, the queue itself might fail for various reasons: e.g. the queue accepts
 
 Adapt your configuration so that the `amqpTemplate.send` method is wrapped in a `HystrixCommand`, similar to what you have done in [Exercise 17](../Service2ServiceCommunication/Exercise_17_Introduce_Hystrix.md). Make sure to store the Correlation ID in a field, as the `run` method will be called in a different thread, and use this field to initialize the log context using `LogContext.initializeContext`.
 
-Have a look at our sample [branch exercise 20](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-20-Use-Message-Queues)
+Have a look at our sample [branch exercise 20](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-20-Use-Message-Queues)
 
 ## Used frameworks and tools
 - [RabbitMQ](https://www.rabbitmq.com/)

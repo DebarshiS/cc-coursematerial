@@ -8,7 +8,7 @@ The task of this exercise is to add validation for one possible error case, and 
 
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [origin/solution-4-2-DeleteUpdate](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-4-2-DeleteUpdate).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [origin/solution-4-2-DeleteUpdate](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-4-2-DeleteUpdate).
 
 ## Step 1: Add Maven Dependencies
 

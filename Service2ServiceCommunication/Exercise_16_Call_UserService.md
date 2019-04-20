@@ -10,7 +10,7 @@ Technically we are going to use [`RestTemplate`](http://docs.spring.io/spring-fr
 **[Changes](#changes-since-video-recording) since video recording**.
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-13-Use-SLF4J-Features`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-13-Use-SLF4J-Features).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`origin/solution-13-Use-SLF4J-Features`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-13-Use-SLF4J-Features).
 
 ## Step 1: Test User Service using a REST client
 Before we start with the implementation we want to get familiar with the User service. 

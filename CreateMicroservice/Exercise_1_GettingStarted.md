@@ -10,7 +10,7 @@ Get familiar with the provided code base and understand how to test your microse
 
 - Run `VirtualBox` and start your Virtual Machine (VM).
 - Run Eclipse inside the VM **Important: If you are asked for a workspace, make sure to use the default workspace at `/home/vagrant/workspace`**
-- Import the `master` branch of this [Git Project](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/master) as described below:
+- Import the `master` branch of this [Git Project](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/master) as described below:
 
 #### Case 1: Initial Import
 If you did not import the `cc-bulletinboard-ads` project previously, follow these steps:

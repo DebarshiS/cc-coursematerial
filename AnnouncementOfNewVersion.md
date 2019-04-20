@@ -51,7 +51,7 @@ The new material is available on the `master` branch.
 
 - [Course Material (`master branch`)](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/tree/master)
 - [Exercises and Demos](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Readme.md)
-- [Sample Solution](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc) 
+- [Sample Solution](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc) 
 - [Slides](http://mo-9d199bd4b.mo.sap.corp:8080/job/cc-coursematerial/lastSuccessfulBuild/artifact/Z_Presentations/cc-appdev-java.pdf)
 
 ### When the new version is active, what happens with the "old" JAX-RS version?

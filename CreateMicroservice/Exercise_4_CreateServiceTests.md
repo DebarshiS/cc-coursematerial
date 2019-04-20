@@ -15,7 +15,7 @@ The task of this exercise is to implement a **JUnit test suite** that tests the 
 **[Changes](#changes-since-video-recording) since video recording**.
 
 ## Prerequisite
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`solution-3-Create-Ads-Endpoints`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-3-Create-Ads-Endpoints).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`solution-3-Create-Ads-Endpoints`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-3-Create-Ads-Endpoints).
 
 ## Step 1: Create JUnit Test Suite
 In Java the test classes are typically separated from the source code so that Maven can package the microservice as application without the test code. That means that the test classes are stored in another root directory, while the package structure is identical to the structure in `src/main`:

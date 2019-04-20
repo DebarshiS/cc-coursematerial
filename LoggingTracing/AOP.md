@@ -23,13 +23,13 @@ In order for the tracing statements to be executed, the original code is augment
 The main difference is when weaving takes place. The simplest approach is compile-time weaving via maven-plugin, which we'll be using in our example. See [Load-Time Weaving](https://eclipse.org/aspectj/doc/released/devguide/ltw.html) for further details.
 
 ## Examples
-For examples, see [cc-bulletinboard-ads with AOP](hhttps://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/demo-aop-for-logging/src/main/java/com/sap/bulletinboard/ads/aspects). 
+For examples, see [cc-bulletinboard-ads with AOP](hhttps://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/demo-aop-for-logging/src/main/java/com/sap/bulletinboard/ads/aspects). 
 
 ## Basic setup
 - Install AJDT in Eclipse. 
   - Find the correct software site for your Eclipse version on [Eclipse AJDT downloads](http://www.eclipse.org/ajdt/downloads/). 
   - In Eclipse, open `Help`->`Install New Software` and paste the software site (for Eclipse Mars: `http://download.eclipse.org/tools/ajdt/45/dev/update`). Then select AspectJ Development Tools and proceed.
-- Checkout branch [demo-aop-for-logging](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/demo-aop-for-logging). 
+- Checkout branch [demo-aop-for-logging](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/demo-aop-for-logging). 
 
 ### Maven `pom.xml`
 
@@ -79,13 +79,13 @@ In order to introduce compile-time weaving. The plugin `aspectj-maven-plugin` is
 
 
 ### Example 1 - Tracing methods calls with @Before
-See class [`com.sap.bulletinboard.ads.aspects.TraceAllRestCallsAspect`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/demo-aop-for-logging/src/main/java/com/sap/bulletinboard/ads/aspects/TraceAllRestCallsAspect.java).
+See class [`com.sap.bulletinboard.ads.aspects.TraceAllRestCallsAspect`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/demo-aop-for-logging/src/main/java/com/sap/bulletinboard/ads/aspects/TraceAllRestCallsAspect.java).
 
 ### Example 2 - Tracing method calls with parameters and annotations
-See class [`com.sap.bulletinboard.ads.aspects.TraceModelSetterParametersAspect`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/demo-aop-for-logging/src/main/java/com/sap/bulletinboard/ads/aspects/TraceModelSetterParametersAspect.java).
+See class [`com.sap.bulletinboard.ads.aspects.TraceModelSetterParametersAspect`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/demo-aop-for-logging/src/main/java/com/sap/bulletinboard/ads/aspects/TraceModelSetterParametersAspect.java).
 
 ### Example 3 - Wrapping calls and accessing return values
-See class [`com.sap.bulletinboard.ads.aspects.TraceUserServicePerformanceAspect`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/demo-aop-for-logging/src/main/java/com/sap/bulletinboard/ads/aspects/TraceUserServicePerformanceAspect.java).
+See class [`com.sap.bulletinboard.ads.aspects.TraceUserServicePerformanceAspect`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/demo-aop-for-logging/src/main/java/com/sap/bulletinboard/ads/aspects/TraceUserServicePerformanceAspect.java).
 
 
 ## Further Reading

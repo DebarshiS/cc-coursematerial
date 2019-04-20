@@ -11,7 +11,7 @@ Note: There is currently no easy way to make a subset of apps 'unreachable' via 
 
 ## Prerequisite
 
-Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`solution-23-Setup-Generic-Authorization`](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-23-Setup-Generic-Authorization).
+Continue with your solution of the last exercise. If this does not work, you can checkout the branch [`solution-23-Setup-Generic-Authorization`](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-23-Setup-Generic-Authorization).
 
 ## Step 1: Add Maven dependencies
 
@@ -204,7 +204,7 @@ In order to successfully perform a state-changing request you will need to provi
 
 
 ## Step 7: Administrate Authorizations for your Business Application
-As of now you've configured your xsuaa service with the application security model ([xs-security.json](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/solution-24-Make-App-Secure/security/xs-security.json)). With that, the xsuaa has the knowledge about the role-templates. But you, as a User, still have no permission to access the advertisement endpoints, as the required scopes or roles are not yet assigned to your user. 
+As of now you've configured your xsuaa service with the application security model ([xs-security.json](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-24-Make-App-Secure/security/xs-security.json)). With that, the xsuaa has the knowledge about the role-templates. But you, as a User, still have no permission to access the advertisement endpoints, as the required scopes or roles are not yet assigned to your user. 
 
 To administrate authorizations for your business application, perform the steps of the procedure [HowTo Administrate Authorizations for CF Applications using the SAP CP Cockpit][9].
 

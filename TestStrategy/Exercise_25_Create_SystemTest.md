@@ -43,7 +43,7 @@ In order to use the service you need to know/setup the following infrastructure:
 
 
 ## Prerequisites
-Continue with the solution of your last exercise. If this does not work, you can checkout the branch [`solution-24-Make-App-Secure`][15] and follow the desciption [here](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/solution-24-Make-App-Secure/README.md#steps-to-deploy-to-cloud-foundry) to deploy your application on Cloud Foundry.
+Continue with the solution of your last exercise. If this does not work, you can checkout the branch [`solution-24-Make-App-Secure`][15] and follow the desciption [here](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-24-Make-App-Secure/README.md#steps-to-deploy-to-cloud-foundry) to deploy your application on Cloud Foundry.
 
 In particular ensure that you have changed the D-Number `d012345` to your D/C/I-Number to adjust the `xsappname` in all relevant files:
   - localEnvironmentSetup.bat
@@ -131,14 +131,14 @@ $     mvn clean verify
 - [Muenchhausen][8]
 
 [2]: https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Security/Exercise_22_DeployApplicationRouter.md "Exercise 22"
-[3]: https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/blob/solution-24-Make-App-Secure/src/test/java/com/sap/bulletinboard/ads/testutils/JwtGenerator.java "JWT Token Generator"
+[3]: https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-24-Make-App-Secure/src/test/java/com/sap/bulletinboard/ads/testutils/JwtGenerator.java "JWT Token Generator"
 [6]: https://github.wdf.sap.corp/cc-java/cc-bulletinboard-systemtest/tree/master "Get to know the code"
 [7]: https://code.google.com/p/hamcrest/wiki/Tutorial "Hamcrest Tutorial"
 [8]: https://xsuaa-monitoring-idp.cfapps.sap.hana.ondemand.com "Muenchhausen Service"
 [11]: https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/TestStrategy/images/ComponentTest_JWTToken.png
 [13]: https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/TestStrategy/images/SystemTest.png
 [14]: https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/TestStrategy/images/SystemTest_detailed.png
-[15]: https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-24-Make-App-Secure "Solution Exercise 24"
+[15]: https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-24-Make-App-Secure "Solution Exercise 24"
 
 
 ***

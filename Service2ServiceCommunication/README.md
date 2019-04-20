@@ -60,5 +60,5 @@ Often a process consists of many steps, eg.: Reserve --> Address Verification --
   * And: SAP software is always highly configurable (even for the cloud) and therefore we need one class (the process level) which deals with that configuration  * 
 
 ## Hystrix Code Samples
-- [Course Sample Code](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc), UserServiceClient and GetUserCommand [package](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-webmvc/tree/solution-24-Make-App-Secure/src/main/java/com/sap/bulletinboard/ads/services)
+- [Course Sample Code](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc), UserServiceClient and GetUserCommand [package](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-24-Make-App-Secure/src/main/java/com/sap/bulletinboard/ads/services)
 - [Hystrix Examples](https://github.wdf.sap.corp/refapps/SimpleHystrixConceptsPOC), synchronous and asynchronous execution)
