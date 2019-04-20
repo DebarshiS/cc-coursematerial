@@ -2,7 +2,7 @@
 
 ## SAP (public) Cloud Platforms - 2017
 
-<img src="https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Z_ReuseImages/images/CloudOfferings.png" width="900" />
+<img src="https://github.com/ccjavadev/cc-coursematerial/blob/master/Z_ReuseImages/images/CloudOfferings.png" width="900" />
 
 
 ## XSA - XS Advanced
