@@ -18,7 +18,7 @@ Create JUnit Test Case `AdvertisementRepositoryTest` in test-package `com.sap.bu
 @ContextConfiguration(classes = EmbeddedDatabaseConfig.class)
 ```
 
-- As mentioned in [Exercise 4](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md) we want to make use of Hamcrest's `assertThat` method and the standard set of matchers, both of which we provide using static imports:
+- As mentioned in [Exercise 4](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md) we want to make use of Hamcrest's `assertThat` method and the standard set of matchers, both of which we provide using static imports:
 
 ```java
 import static org.junit.Assert.assertThat;

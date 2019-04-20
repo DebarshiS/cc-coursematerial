@@ -6,10 +6,10 @@ The goal of this exercise is to get familiar with the log output of Cloud Foundr
 Proper logging is very important as it is not possible to debug a running microservice. Reason for this is that the debug port is closed and as we have multiple instances it is difficult to target a specific instance.
 
 ## Demo
-- <img src="https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Z_ReuseImages/images/information.jpg" height="20" alt="Video on video.sap.com"/> [Kibana demo](https://video.sap.com/media/t/1_4gvkpx00) (14 minutes)
+- <img src="https://github.com/ccjavadev/cc-coursematerial/blob/master/Z_ReuseImages/images/information.jpg" height="20" alt="Video on video.sap.com"/> [Kibana demo](https://video.sap.com/media/t/1_4gvkpx00) (14 minutes)
 
 ## Steps
-Optionally you can follow these [Exercise steps](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/LoggingTracing/Exercise_14_GettingStarted_With_ELK_Stack.md#step-3-login-to-kibana) to analyze the (application) log messages in the [Kibana dashboard](https://logs.cf.sap.hana.ondemand.com/) by your own.
+Optionally you can follow these [Exercise steps](https://github.com/ccjavadev/cc-coursematerial/blob/master/LoggingTracing/Exercise_14_GettingStarted_With_ELK_Stack.md#step-3-login-to-kibana) to analyze the (application) log messages in the [Kibana dashboard](https://logs.cf.sap.hana.ondemand.com/) by your own.
 
 
 ***

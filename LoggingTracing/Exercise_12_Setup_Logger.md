@@ -57,7 +57,7 @@ In the cloud we would like to format the log messages as JSON. For that, the `ST
 > **Tip for JUnit tests**: In order to have readable log messages in the JUnit tests, you can just copy the `src/main/resources/logback.xml` into the `src/test/resources/` folder and rename it to `logback-test.xml`(!) and ensure that the settings are defaulted to STDOUT: `<appender-ref ref="${APPENDER:-STDOUT}" />`.
 
 >  **When using the `sap_java_buildpack`** instead of the community buildpack and package our application as `war` file, the deployed application makes use of the `logback.xml` configuration file, which is centrally provided by the `sap_java_buildpack`. 
-That means the `logback.xml` that is provided in the `src/main/resources/` folder is used for local execution only, unless you explicitly override the centrally provided configuration as described [here](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/LoggingTracing/Exercise_14_GettingStarted_With_ELK_Stack.md#step-13-provide-a-custom-logbackxml).
+That means the `logback.xml` that is provided in the `src/main/resources/` folder is used for local execution only, unless you explicitly override the centrally provided configuration as described [here](https://github.com/ccjavadev/cc-coursematerial/blob/master/LoggingTracing/Exercise_14_GettingStarted_With_ELK_Stack.md#step-13-provide-a-custom-logbackxml).
 
 
 ### Eclipse Tomcat configuration

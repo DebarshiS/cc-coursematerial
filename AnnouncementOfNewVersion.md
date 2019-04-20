@@ -19,7 +19,7 @@ While using the same libraries like in context of our Spring Boot version, we in
 - Learn how to manage dependencies in `pom.xml`.
 - Learn how to define required Beans instead of let them be created and configured automatically.
 
-Having understood the basics you are not only ready to bootstrap your application with Spring Boot but also able to understand the magic behind. Read more about the ["Way towards Spring Boot"](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/SpringBoot/Readme.md).
+Having understood the basics you are not only ready to bootstrap your application with Spring Boot but also able to understand the magic behind. Read more about the ["Way towards Spring Boot"](https://github.com/ccjavadev/cc-coursematerial/blob/master/SpringBoot/Readme.md).
 
 ### What has changed?
 We tried to change "as much as necessary - as little as possible"!
@@ -32,11 +32,11 @@ The table provides an high level overview about the main changes, that were intr
 | writing integration tests                 | Embedded Tomcat               | Spring Test MVC | "
 | calling a RESTful service (REST Client)   | CXF Rest Client               | Apache Rest Template | Minor update in "Service2Service Communication" [slides](http://mo-9d199bd4b.mo.sap.corp:8080/job/cc-coursematerial/lastSuccessfulBuild/artifact/Z_Presentations/cc-appdev-java.pdf)
 
-You can find the tools (link to OSS approvals) that are used in the new version [here](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/_Internals/Tools.md).
+You can find the tools (link to OSS approvals) that are used in the new version [here](https://github.com/ccjavadev/cc-coursematerial/blob/master/_Internals/Tools.md).
 
 ### When do we switch offically?
 We will activate the new version on friday, **18th of November, 2016**.
-With that the e-learning, the [wiki](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/wiki) will refer to the new version.
+With that the e-learning, the [wiki](https://github.com/ccjavadev/cc-coursematerial/wiki) will refer to the new version.
 
 ### How can I learn about the delta?
 You can find a recording of the update info session on this share: \\\dwdf212\bst_ecf\X_Public\QE\CloudCurriculum\MicroserviceDevelopment\Infosession_NewVersion_11Nov2016
@@ -49,15 +49,15 @@ Right now, we can't afford to provide new recordings for the new version. Theref
 ### Where can I find the new version?
 The new material is available on the `master` branch. 
 
-- [Course Material (`master branch`)](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/tree/master)
-- [Exercises and Demos](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Readme.md)
+- [Course Material (`master branch`)](https://github.com/ccjavadev/cc-coursematerial/tree/master)
+- [Exercises and Demos](https://github.com/ccjavadev/cc-coursematerial/blob/master/Readme.md)
 - [Sample Solution](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc) 
 - [Slides](http://mo-9d199bd4b.mo.sap.corp:8080/job/cc-coursematerial/lastSuccessfulBuild/artifact/Z_Presentations/cc-appdev-java.pdf)
 
 ### When the new version is active, what happens with the "old" JAX-RS version?
 Note that the material will be still available at the following links but is not longer updated / maintained!
 
-- [Course Material (`spring-jaxrs branch`)](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/tree/spring-jaxrs)
-- [Exercises and Demos](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/spring-jaxrs/Readme.md)
+- [Course Material (`spring-jaxrs branch`)](https://github.com/ccjavadev/cc-coursematerial/tree/spring-jaxrs)
+- [Exercises and Demos](https://github.com/ccjavadev/cc-coursematerial/blob/spring-jaxrs/Readme.md)
 - [Sample Solution](https://github.wdf.sap.corp/cc-java/cc-bulletinboard-ads-spring-jaxrs) 
 - [Slides](http://mo-9d199bd4b.mo.sap.corp:8080/job/cc-coursematerial-spring-jaxrs/lastSuccessfulBuild/artifact/Z_Presentations/cc-appdev-java.pdf) 

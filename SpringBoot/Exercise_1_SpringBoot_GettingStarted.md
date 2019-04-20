@@ -5,7 +5,7 @@ Learn how simple it is to create a plain Spring Boot application with some manag
 The [Spring Initializr](http://start.spring.io/) generates a new Spring project based on a selection of features you want to have in the app.
 The same functionality is also available as a wizard within the Spring Tool Suite or IntelliJ IDEA (Ultimate Edition).
 
-<img src="https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/SpringBoot/images/SpringInitializer.jpg" height="400" />
+<img src="https://github.com/ccjavadev/cc-coursematerial/blob/master/SpringBoot/images/SpringInitializer.jpg" height="400" />
 
 - Make use of the [Spring Initializr](http://start.spring.io/) to define your Spring Boot application. Add the following dependencies: `Web`, `Cache`, `Actuator` and `HATEOAS`.
 - Click `Generate Project` to download the Spring Boot Project and extract it to Home `/workspace` (default settings are ok).

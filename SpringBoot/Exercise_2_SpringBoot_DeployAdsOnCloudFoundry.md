@@ -27,7 +27,7 @@ applications:
       # Use the non-blocking /dev/urandom instead of the default to generate random numbers.
       # This may help with slow startup times, especially when using Spring Boot.
       JAVA_OPTS: -Djava.security.egd=file:///dev/./urandom
-      # see https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Knowledge/JavaMemoryAllocationInCF.md
+      # see https://github.com/ccjavadev/cc-coursematerial/blob/master/Knowledge/JavaMemoryAllocationInCF.md
       MALLOC_ARENA_MAX: 4
       JBP_CONFIG_OPEN_JDK_JRE: '[memory_calculator: {stack_threads: 100, memory_sizes: {native: 220m..}}]'
 ```

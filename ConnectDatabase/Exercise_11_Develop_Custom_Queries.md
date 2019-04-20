@@ -83,7 +83,7 @@ You may also move the `findByTitle` definition into the repository interface, an
 - [JPQL Tutorial](http://www.tutorialspoint.com/jpa/jpa_jpql.htm)
 - [JPQL: The Basics Video (Youtube)](https://www.youtube.com/watch?v=KdJ4W7nqhVg)
 - [JPA Criteria Builder](http://www.objectdb.com/java/jpa/query/criteria) and [javaDoc](https://docs.oracle.com/javaee/7/api/javax/persistence/criteria/CriteriaBuilder.html)
-- [Detail Notes](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/ConnectDatabase/Readme.md)
+- [Detail Notes](https://github.com/ccjavadev/cc-coursematerial/blob/master/ConnectDatabase/Readme.md)
 - [JPA Static Metamodel Introduction](http://www.thoughts-on-java.org/static-metamodel/)
 - [JPA Static Metamodel Tutorial](https://docs.oracle.com/javaee/6/tutorial/doc/gjiup.html)
 - [JPA Static Metamodel Generation](https://docs.jboss.org/hibernate/orm/5.0/topical/html/metamodelgen/MetamodelGenerator.html)

@@ -11,7 +11,7 @@ The task of this exercise is to setup the persistence layer in such a way that i
 
 In this exercise we provide the `CloudDatabaseConfig` class which sets up a CRUD repository based on the information provided in the `VCAP_SERVICES` environment variable. For this exercise it suffices to regard this class as a "black box". A more in-depth explanation can be found [here](../Knowledge/CloudDatabaseConnection.md).
 
-<img src="https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Z_ReuseImages/images/DBConnectionSetup_blackbox.png" height="300" />
+<img src="https://github.com/ccjavadev/cc-coursematerial/blob/master/Z_ReuseImages/images/DBConnectionSetup_blackbox.png" height="300" />
 
 
 ## Prerequisite
@@ -106,7 +106,7 @@ public interface AdvertisementRepository extends CrudRepository<Advertisement, L
 }
 ```
 - Have a look at the methods provided by the `CrudRepository` interface. By extending `CrudRepository`, `AdvertisementRepository` inherits several methods for saving, deleting, and finding entities.
-- Note: Internally Spring uses reflection to generate a proxy class, which contains the desired implementation details of the specified interface. Read more about Java Reflection [here](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Knowledge/CloudDatabaseConnection.md#excursion-java-reflection).
+- Note: Internally Spring uses reflection to generate a proxy class, which contains the desired implementation details of the specified interface. Read more about Java Reflection [here](https://github.com/ccjavadev/cc-coursematerial/blob/master/Knowledge/CloudDatabaseConnection.md#excursion-java-reflection).
 
 ## Step 4: Configure Repository
 
@@ -115,7 +115,7 @@ public interface AdvertisementRepository extends CrudRepository<Advertisement, L
 
 Some explanations to the code:  
 
-<img src="https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Z_ReuseImages/images/DBConnectionSetup.png" height="300" />
+<img src="https://github.com/ccjavadev/cc-coursematerial/blob/master/Z_ReuseImages/images/DBConnectionSetup.png" height="300" />
 
 Based on the `VCAP_SERVICES` environment variable the `spring-cloud` connector instantiates a `DataSource` instance. Note: Locally this environment variable is set so that a local PostgreSQL database named `test` is used. 
 

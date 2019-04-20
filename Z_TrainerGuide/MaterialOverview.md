@@ -28,10 +28,10 @@ You can find in context of most modules another `Readme.md` that offers you furt
 **Note**: If you wish to read the Github Flavored `.md` files offline you can install [MarkView Chrome plugin](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim).
 
 ### Advanced demos
-Find on the [Exercises and Demos wiki](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/wiki/Exercises-and-Demos) some additional demos you can show like `Redis` or `Connect to HANA Database`, if you have time and the people are interested.
+Find on the [Exercises and Demos wiki](https://github.com/ccjavadev/cc-coursematerial/wiki/Exercises-and-Demos) some additional demos you can show like `Redis` or `Connect to HANA Database`, if you have time and the people are interested.
 
 ## Tool decisions and other internals
 Find some internal discussions in the [_Internals](/_Internals) folder like a list of [OSS approved tools](/_Internals/Tools.md) used in the course and the [tool decisions](/_Internals/Tool_Decisions.md), we made.
 
 ## Further links and Resources
-- Find [here](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Resources.md) some important lins in respect to SAP CP classic, CF @SAP CP, related communities etc. plus some links to external resources.
+- Find [here](https://github.com/ccjavadev/cc-coursematerial/blob/master/Resources.md) some important lins in respect to SAP CP classic, CF @SAP CP, related communities etc. plus some links to external resources.

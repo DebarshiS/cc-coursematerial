@@ -302,7 +302,7 @@ The interesting part of the API First approach is that it is possible to create 
 
 There are also other tools available that are capable of creating a mock server/client automatically. For example `swagger-codegen`.
 
-Additional information can also be found in the corresponding [issue 504](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/issues/504). 
+Additional information can also be found in the corresponding [issue 504](https://github.com/ccjavadev/cc-coursematerial/issues/504). 
 
 ## Further Reading
 - [SAP API Business Hub](https://api.sap.com/)

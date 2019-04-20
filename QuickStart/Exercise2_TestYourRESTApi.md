@@ -6,7 +6,7 @@ After this exercise you will have a more detailed understanding on how to test a
 `Postman` is a Google Chrome app for interacting with HTTP APIs. It has a friendly GUI for constructing requests and reading responses. With that exercise you will learn also some REST basics (header, body, status code). 
 
 ## Demo
-- <img src="https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Z_ReuseImages/images/information.jpg" height="20" alt="Video on video.sap.com"/> [Testing REST APIs using `Postman`](https://video.sap.com/media/1_k9t9op6j) (8 minutes)
+- <img src="https://github.com/ccjavadev/cc-coursematerial/blob/master/Z_ReuseImages/images/information.jpg" height="20" alt="Video on video.sap.com"/> [Testing REST APIs using `Postman`](https://video.sap.com/media/1_k9t9op6j) (8 minutes)
 
 ## Prerequisite
 In order to analyze JSON responses best you need to install [Postman Chrome Plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) that helps to create and test custom HTTP requests.
@@ -41,7 +41,7 @@ Body: JSON(application/json)
 ```
 
 For details see the screen shot: 
-![Post Request using Postman](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/images/RestClient_PostRequest.png)
+![Post Request using Postman](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/images/RestClient_PostRequest.png)
 The response of your post request can be seen in the `Body` section at the bottom.
 
 ### Get all advertisements

@@ -131,7 +131,7 @@ As long as a single DEA node (running multiple microservices) is not on full CPU
 - CF Youtube channel: https://www.youtube.com/user/CloudFoundry
 
 ## CF Internals
-- [CF Offerings @SAP - Background on terminology and semantics](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CloudFoundryBasics/CloudOfferings.md)
+- [CF Offerings @SAP - Background on terminology and semantics](https://github.com/ccjavadev/cc-coursematerial/blob/master/CloudFoundryBasics/CloudOfferings.md)
 - [CF Architecture Video](http://www.infoq.com/presentations/Cloud-Foundry-Architecture)
 - [CF Architecture Video 2](https://www.youtube.com/watch?v=oXExLtmw0q4)
 * CF Container technology: Warden, Docker, Diego. [Comparison article](http://blog.altoros.com/cloud-foundry-containers-warden-docker-garden.html)

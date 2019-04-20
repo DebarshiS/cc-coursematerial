@@ -6,7 +6,7 @@ Get familiar with the basic commands of the Cloud Foundry CLI, learn how to depl
 ## Prerequisite
 Continue with your solution of the last exercise. If this does not work, you can checkout the branch [origin/solution-5-ValidationExceptions](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/tree/solution-5-ValidationExceptions).
 
-Ensure that you've created your own trial space on the Cloud Foundry as described as part of the [Course Prerequisites](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CoursePrerequisites/README.md):
+Ensure that you've created your own trial space on the Cloud Foundry as described as part of the [Course Prerequisites](https://github.com/ccjavadev/cc-coursematerial/blob/master/CoursePrerequisites/README.md):
 
 - Create your own **Trial Account and Space** on the Cloud Foundry system using the [**self-service**](https://account.int.sap.hana.ondemand.com/cockpit#/home/overview) (click the button **Start Cloud Foundry Trial** and select the Europe/Frankfurt region). For login, use your domain user and password. Further information you can get from the [**Getting Started with Cloud Foundry** help page](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/b8ee7894fe0b4df5b78f61dd1ac178ee.html). 
 - You can optionally join the [CF users mailing list](https://listserv.sap.corp/mailman/listinfo/cf.users) for questions, answers and discussions regarding SAP CP Cloud Foundry.
@@ -84,7 +84,7 @@ Note: By default the health check tries to establish a TCP connection to an appl
 
 Now deploy your application again and make sure that it starts and does not crash. In case you face a Server error when deploying your application similar to `Server error, status code: 400, error code: 100001, message: The app is invalid: health_check_http_endpoint HTTP health check endpoint is not a valid URI path:`: Check the version of your Cloud Foundry CLI version using `cf --version` and make sure that it is **>=6.27.0**. You can upgrade the version as documented [here](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html).
 
-Note also that the `health` endpoint remains accessible even after introduction of authentication and authorization checks as part of **[Exercise 24](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Security/Exercise_24_MakeYourApplicationSecure.md)**.
+Note also that the `health` endpoint remains accessible even after introduction of authentication and authorization checks as part of **[Exercise 24](https://github.com/ccjavadev/cc-coursematerial/blob/master/Security/Exercise_24_MakeYourApplicationSecure.md)**.
 
 ## Used Frameworks and Tools
 - [Cloud Foundry CLI](https://github.com/cloudfoundry/cli)

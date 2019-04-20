@@ -86,8 +86,8 @@ With the tomcat maven plugin the maven build is triggered and if successful the 
 
 ## Step 4: Wrap-Up: Understand how the Application is Deployed and Initialized
 Now you should be able to understand the following picture:
-![](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Z_ReuseImages/images/Tomcat_DeployAndInitApp.png)
-Find further information [here](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Knowledge/AssemblyAndInitialization.md).
+![](https://github.com/ccjavadev/cc-coursematerial/blob/master/Z_ReuseImages/images/Tomcat_DeployAndInitApp.png)
+Find further information [here](https://github.com/ccjavadev/cc-coursematerial/blob/master/Knowledge/AssemblyAndInitialization.md).
 
 ## Step 5: Debug the Web Application in Eclipse
 You can also build and deploy your application within your Eclipse IDE, which might be more convenient and which allows you to start the web application in debug mode. 

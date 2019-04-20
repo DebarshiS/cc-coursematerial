@@ -123,7 +123,7 @@ Add the `spring-boot-actuator` dependency to your `pom.xml` using the XML view o
 	</exclusions>
 </dependency>
 ```
-> Note: In this exercise we intentionally **do NOT make use of the latest version of actuator** for simplicity reasons. Please be aware of the possible security implications of using this productively as documented [here](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_1_GettingStarted.md#remarks-on-using-the-actuator-productive-code).  
+> Note: In this exercise we intentionally **do NOT make use of the latest version of actuator** for simplicity reasons. Please be aware of the possible security implications of using this productively as documented [here](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_1_GettingStarted.md#remarks-on-using-the-actuator-productive-code).  
 
 > Note: After you've changed the Maven settings, don't forget to update your Eclipse project (`ALT-F5`)! 
 

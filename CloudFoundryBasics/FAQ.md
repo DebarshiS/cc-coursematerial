@@ -35,7 +35,7 @@ However, for now, you need to use the route to your application when registering
 
 ### Q: How to debug
 
-See [Exercise 15: Debugging a Java CF app](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/LoggingTracing/Exercise_15_Debug_CF_Application.md).
+See [Exercise 15: Debugging a Java CF app](https://github.com/ccjavadev/cc-coursematerial/blob/master/LoggingTracing/Exercise_15_Debug_CF_Application.md).
 
 ### Q: Architecture concepts for Automatic Scaling
 The [app autoscaler](https://github.com/cloudfoundry-incubator/app-autoscaler) is currently developed in cooperation with IBM.
@@ -47,7 +47,7 @@ The generic answer is: **SAP will deploy Dynatrace for all internal and cloud sy
 
 ### Q: How analyze DB content?
 
-- To connect to a DB in order to analyze its content, you can use CF SSH as described in [this exercise](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/ConnectDatabase/Exercise_10_2_ConnectBackingService.md)
+- To connect to a DB in order to analyze its content, you can use CF SSH as described in [this exercise](https://github.com/ccjavadev/cc-coursematerial/blob/master/ConnectDatabase/Exercise_10_2_ConnectBackingService.md)
 - See also the general CF documentation on [Accessing Services with SSH](https://docs.cloudfoundry.org/devguide/deploy-apps/ssh-services.html)
 
 ### Q: Standard Endpoints for health checks?
@@ -76,5 +76,5 @@ You need to make use of SAP java buildpack for implementing SAP cloud agnostic J
 ./. whitepaper?
 
 ## Further References
-- [Related Issue](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/issues/271)
+- [Related Issue](https://github.com/ccjavadev/cc-coursematerial/issues/271)
 - [Cloud Foundry - FAQ](https://qac.wdf.sap.corp/Default.aspx?ExpandTree=1&GroupID=4&TopicID=10246)

@@ -49,7 +49,7 @@ In context of your Subaccount you can now attach a Cloud Foundry organization. W
 
 ### Make your Application Security Setup Tenant-Aware
 
-Follow the [Exercises from 22](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Security/Exercise_22_DeployApplicationRouter.md) onwards.
+Follow the [Exercises from 22](https://github.com/ccjavadev/cc-coursematerial/blob/master/Security/Exercise_22_DeployApplicationRouter.md) onwards.
 
 In any case, make sure that you have unbound and deleted your `uaa-bulletinboard` service instance first, before you create a fresh XSUAA service instance with `application` plan (that it is only visible within the CF org). 
 

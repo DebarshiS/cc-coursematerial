@@ -14,7 +14,7 @@ We use the `CloudDatabaseConfig` file to configure access to a database. Startin
 environment variable `VCAP_SERVICES`, we end up with an instance of a CRUD repository.
 For this the three plugins are used, which are explained in detail below.
 
-<img src="https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Z_ReuseImages/images/DBConnectionSetup.png" height="300" />
+<img src="https://github.com/ccjavadev/cc-coursematerial/blob/master/Z_ReuseImages/images/DBConnectionSetup.png" height="300" />
 
 ### Spring Cloud
 In the first step, the Spring Cloud plugin is used. This code parses the information provided in the `VCAP_SERVICES`

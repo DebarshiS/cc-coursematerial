@@ -21,7 +21,7 @@ There are two ways to offer and run this course:
   - In addition to the room data, also send **all planned participants** along so that they can be booked into the course from the beginning. 
   - **Usually, rooms are hard to get, especially for the 5-day courses. You should book rooms 2-3 months in advance to make sure you can get the date you want.**
   - Since developers are to bring their own laptops, the room needs only seats and tables, power outlets and a beamer. 
-- **Communicate date and preparation to participants:** Once the course instance is created, participants automatically get an invitation mail with all the details from the learning system. In addition you should send a mail / meeting request ([see e.g. template](MeetingRequestTemplate.md)) to the participants to inform them about the date, the [**prerequisites / preparation tasks**](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/tree/master/CoursePrerequisites) and that they bring their own laptops. Don't hesitate to send a gentle reminder some days before the course starts.
+- **Communicate date and preparation to participants:** Once the course instance is created, participants automatically get an invitation mail with all the details from the learning system. In addition you should send a mail / meeting request ([see e.g. template](MeetingRequestTemplate.md)) to the participants to inform them about the date, the [**prerequisites / preparation tasks**](https://github.com/ccjavadev/cc-coursematerial/tree/master/CoursePrerequisites) and that they bring their own laptops. Don't hesitate to send a gentle reminder some days before the course starts.
 
 If you need help with course setup and dealing with CES you can also try to contact:  
   - Americas: Wode Courchesne

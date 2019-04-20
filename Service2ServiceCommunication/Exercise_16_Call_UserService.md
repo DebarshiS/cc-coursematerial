@@ -71,7 +71,7 @@ Before you (re-)start your Tomcat webserver within Eclipse, you need to adapt th
 
 
 ### Alternatively: Run on Command Line
-As described in [Exercise 1](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_1_GettingStarted.md) you can also deploy the service on an embedded Tomcat using Maven.
+As described in [Exercise 1](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_1_GettingStarted.md) you can also deploy the service on an embedded Tomcat using Maven.
 
 
 ## Step 6: Fix Tests

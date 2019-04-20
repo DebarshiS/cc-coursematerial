@@ -46,7 +46,7 @@ npm --version
 ```
 #### Notes
 > Note: ~~you can look up the current NPM package version of the `@sap/approuter` module available on `npm.sap.com` from nexus [here](https://npm.dmzwdf.sap.corp/nexus/#browse/search=group%3Dsap%20AND%20name.raw%3Dapprouter) (group name maps to `@sap`).~~
-Until further notice, please use the exact version specified above. The approuter has evolved and newer versions will cause problems in the following exercises. This is related to https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/issues/819.
+Until further notice, please use the exact version specified above. The approuter has evolved and newer versions will cause problems in the following exercises. This is related to https://github.com/ccjavadev/cc-coursematerial/issues/819.
 
 ## [Optional] Step 2: Build approuter once (locally)
 Similar to what we are doing for our bulletinboard-ads Java application, we also recommend to build the approuter Node application once (locally or triggered later as part of the Continuous Delivery build) before deploying it to Cloud Foundry. Therefore we use the NPM Packager Manager to download the packages (`node_modules`) as specified in the `package.json`.
@@ -214,7 +214,7 @@ $ cf push
 - [How-To: Using the Multi Tenant Approuter](https://wiki.wdf.sap.corp/wiki/display/xs2/How-To:+Using+the+Multi+Tenant+Approuter)
 
 ## Further reading
-- [Detail Notes](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Security/Readme.md)
+- [Detail Notes](https://github.com/ccjavadev/cc-coursematerial/blob/master/Security/Readme.md)
 
 
 ## Changes since video recording
@@ -234,4 +234,4 @@ $ cf push
   <img align="right" alt="Next Exercise">
 </a>
 
-[1]: https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Security/images/UAAOwnIDZone.png "UAA with own IDZone"
+[1]: https://github.com/ccjavadev/cc-coursematerial/blob/master/Security/images/UAAOwnIDZone.png "UAA with own IDZone"

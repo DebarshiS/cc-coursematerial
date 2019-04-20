@@ -65,7 +65,7 @@ The `@ContextConfiguration` allows us to configure the the Spring `ApplicationCo
 
 The `@WebAppConfiguration` is used to declare that the ApplicationContext loaded for an integration test should be a `WebApplicationContext`. Behind the scenes it creates a `MockServletContext` which serves as the ServletContext for the tests containing "all" Spring Web MVC components.
 
-With [Exercise 24](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Security/Exercise_24_MakeYourApplicationSecure.md) we are going to introduce Spring Security and accordingly the `springSecurityFilterChain` as `ServletFilter`. In a Spring Mvc Test we need to ensure that the filter is applied to the MockMvc as shown in that [Example](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-24-Make-App-Secure/src/test/java/com/sap/bulletinboard/ads/controllers/AdvertisementControllerTest.java). 
+With [Exercise 24](https://github.com/ccjavadev/cc-coursematerial/blob/master/Security/Exercise_24_MakeYourApplicationSecure.md) we are going to introduce Spring Security and accordingly the `springSecurityFilterChain` as `ServletFilter`. In a Spring Mvc Test we need to ensure that the filter is applied to the MockMvc as shown in that [Example](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-24-Make-App-Secure/src/test/java/com/sap/bulletinboard/ads/controllers/AdvertisementControllerTest.java). 
 
 Read more about the `Spring MVC Test Framework` [here](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/integration-testing.html#spring-mvc-test-framework).
 
@@ -76,7 +76,7 @@ The fluent API in the example above requires a few static imports such as `MockM
 Some people say that "REST is just like SOAP and what we have always done!". This is not true at all - and shows a serious lack of understanding! For a good article on the significant differences see the article [Richardson REST Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html) by Martin Fowler, as well as [REST APIs](http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven) by Roy Fieldings, one of the principal authors of the HTTP spec and the originator of REST.
 
 ## Further Reading
-- [Assembly and Initialization explained](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Knowledge/AssemblyAndInitialization.md)
+- [Assembly and Initialization explained](https://github.com/ccjavadev/cc-coursematerial/blob/master/Knowledge/AssemblyAndInitialization.md)
 - [Our Tool Decisions](/_Internals/Tool_Decisions.md)
 - You can find a general overview of http [here](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
 - [Http header fields reference](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)

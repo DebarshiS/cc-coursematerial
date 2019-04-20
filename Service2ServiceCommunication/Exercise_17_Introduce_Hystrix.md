@@ -71,7 +71,7 @@ As Hystrix provides some default configuration such as timeout after 1000ms you 
 - [Hystrix](https://github.com/Netflix/Hystrix)
 
 ## Further Reading
-- [Hystrix Dashboard - how to setup, test](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Service2ServiceCommunication/HystrixDashboard.md)
+- [Hystrix Dashboard - how to setup, test](https://github.com/ccjavadev/cc-coursematerial/blob/master/Service2ServiceCommunication/HystrixDashboard.md)
 - [Further Hystrix Examples](https://github.wdf.sap.corp/refapps/SimpleHystrixConceptsPOC)
 
 ***

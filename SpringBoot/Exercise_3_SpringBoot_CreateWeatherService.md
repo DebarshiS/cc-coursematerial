@@ -44,7 +44,7 @@ public class WeatherControllerTest {
 - Make use of the `CTRL+SHIFT+O` shortcut to organize your missing imports.
 
 #### Run JUnit Tests in Eclipse
-As described here: [Exercise 1: Getting Started](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/SpringBoot/Exercise_1_SpringBoot_GettingStarted.md#step-7-run-junit-tests-in-eclipse). The JUnit test fail as desired, because the endpoint isn't implemented; it should be fixed by end of this exercise.
+As described here: [Exercise 1: Getting Started](https://github.com/ccjavadev/cc-coursematerial/blob/master/SpringBoot/Exercise_1_SpringBoot_GettingStarted.md#step-7-run-junit-tests-in-eclipse). The JUnit test fail as desired, because the endpoint isn't implemented; it should be fixed by end of this exercise.
 
 ## Step 2: Define and implement new REST endpoints
 Now we want to satisfy the failing JUnit test by implementing the service endpoints as specified in the table above.
@@ -71,7 +71,7 @@ public class WeatherController {
 - Make use of the `CTRL+SHIFT+O` shortcut to organize your missing imports.
 
 #### Run the Microservice locally
-As described here: [Exercise 1: Getting Started](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/SpringBoot/Exercise_1_SpringBoot_GettingStarted.md#step-3-run-microservice-in-eclipse)
+As described here: [Exercise 1: Getting Started](https://github.com/ccjavadev/cc-coursematerial/blob/master/SpringBoot/Exercise_1_SpringBoot_GettingStarted.md#step-3-run-microservice-in-eclipse)
 
 #### Test your endpoint manually
 Test the REST Service `http://localhost:8080/api/weather/now/Germany/Sinsheim` manually in the Browser or `Postman` chrome plugin.

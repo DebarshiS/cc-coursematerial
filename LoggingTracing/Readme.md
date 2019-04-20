@@ -299,7 +299,7 @@ Aspect-oriented programming can be used to insert tracing statements in multiple
 See [Aspect-Oriented Programming for tracing](AOP.md)
 
 **TODOs**:
-- How to make existing framework logs readable? For example JPA/EclipseLink (see [Issue 24](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/issues/24))
+- How to make existing framework logs readable? For example JPA/EclipseLink (see [Issue 24](https://github.com/ccjavadev/cc-coursematerial/issues/24))
 - AOP approaches
 - how to log metric information
 
@@ -434,7 +434,7 @@ An identifier like device id or user id (if available) helps to map the backend 
 If an exception occurs in the client code, the exception message plus, for example, information in which screen/step/action the error occurred is useful to reproduce the issue.
 
 ## Further Reading
-- [Debugging on CF possible?](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/issues/54)
+- [Debugging on CF possible?](https://github.com/ccjavadev/cc-coursematerial/issues/54)
 - [XS2 Java - Logging and Tracing](https://wiki.wdf.sap.corp/wiki/display/xs2java/Logging+and+Tracing)
 - [Logging at SAP Help Portal](http://help.sap.com/saphelp_erp60_sp/helpdata/en/b7/54e63f48e58f15e10000000a155106/content.htm?frameset=/en/b7/54e63f48e58f15e10000000a155106/frameset.htm&current_toc=/en/49/e98876e9865b4e977b54fc090df4ed/plain.htm&node_id=568&show_children=false)
 - http://pixlcloud.com/applicationlogging.pdf

@@ -17,7 +17,7 @@ There is a set of evolving technologies which belong to the context of a core pr
 
 Apart from that **Spring Cloud** builds on top of Spring Boot, which empowers developers to rapidly build complex applications by leveraging common patterns in distributed systems. 
 
-**From the historical point of view we decided in the past for Spring and JAX-RS for providing REST APIs. In the current version we make use of the Spring libraries, like `Spring Web MVC` for building RESTful APIs, that are promoted in context of Spring Boot. From a didactical point of view we decided to introduce Spring Boot framework and its specifics at the very end of the course.** Having understood the basics / underlying concepts and libraries you are not only ready to bootstrap your application with Spring Boot but also able to understand the magic behind. Read more about the ["Way towards Spring Boot"](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/SpringBoot/Readme.md).
+**From the historical point of view we decided in the past for Spring and JAX-RS for providing REST APIs. In the current version we make use of the Spring libraries, like `Spring Web MVC` for building RESTful APIs, that are promoted in context of Spring Boot. From a didactical point of view we decided to introduce Spring Boot framework and its specifics at the very end of the course.** Having understood the basics / underlying concepts and libraries you are not only ready to bootstrap your application with Spring Boot but also able to understand the magic behind. Read more about the ["Way towards Spring Boot"](https://github.com/ccjavadev/cc-coursematerial/blob/master/SpringBoot/Readme.md).
 
 #### Rationales behind Spring Boot
 - Has huge open source community: a lot of tutorials / code examples, simplifies troubleshooting, keeping yourself up-to-date.
@@ -32,7 +32,7 @@ Using Spring we get Dependency Injection (Inversion of Control), automatic confi
 
 The individual modules can easily be used in combination, and integrate with Spring's injection/test/configuration functionalities. Furthermore, Spring currently is mainstream.
 
-Read more about `Spring Basics`[here](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/SpringBasics/Readme.md).
+Read more about `Spring Basics`[here](https://github.com/ccjavadev/cc-coursematerial/blob/master/SpringBasics/Readme.md).
 
 ### Jetty vs. TomEE vs. Tomcat
 

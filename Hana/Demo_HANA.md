@@ -94,7 +94,7 @@ public class CloudDatabaseConfig extends AbstractCloudConfig {
 	}
 }
 ```
-- Ensure, that you've enabled `@ComponentScan`, that is able to find the `CloudDatabaseConfig`, so that the `DataSource` gets injected. The `DataSource` provides the `getConnection` method to execute SQL statements as shown in the next step. (see [Cloud Database Connections](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Knowledge/CloudDatabaseConnection.md) for more information).
+- Ensure, that you've enabled `@ComponentScan`, that is able to find the `CloudDatabaseConfig`, so that the `DataSource` gets injected. The `DataSource` provides the `getConnection` method to execute SQL statements as shown in the next step. (see [Cloud Database Connections](https://github.com/ccjavadev/cc-coursematerial/blob/master/Knowledge/CloudDatabaseConnection.md) for more information).
 
 ## Step 4: Use database connection
 Replace the code of the `StatisticsCounter` class with this: [StatisticsCounter.java](https://github.wdf.sap.corp/raw/cc-java/cc-bulletinboard-statistics/solution-hana-no-hdi/src/main/java/com/sap/bulletinboard/statistics/util/StatisticsCounter.java) and have a closer look at it...

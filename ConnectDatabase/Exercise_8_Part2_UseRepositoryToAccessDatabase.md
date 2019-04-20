@@ -27,7 +27,7 @@ Now you can test the service manually in the browser using the `Postman` chrome 
 **Note**: Currently the tests are failing (which will be fixed in the next steps). If you want to build using Maven, run `mvn clean package -DskipTests`.
 
 ## Step 4: Run Component Tests
-The service tests from [Exercise 4](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md) are broken now, because the test provides no information about how to inject the `AdvertisementRepository` instance.
+The service tests from [Exercise 4](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md) are broken now, because the test provides no information about how to inject the `AdvertisementRepository` instance.
 
 Furthermore the tests should run independently from a concrete database, so we provide an alternative database configuration which uses an in-memory database named `H2`. 
 
@@ -44,7 +44,7 @@ Furthermore the tests should run independently from a concrete database, so we p
 Note: After you've changed the Maven settings, don't forget to update your Eclipse project! To do so right click on your Eclipse project and select `Maven` - `Update Project ...` (`ALT-F5`)
 
 - Create a new class `EmbeddedDatabaseConfig` in the **test package** `com.sap.bulletinboard.ads.config` and copy the code from [here](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/raw/solution-8-2-Use-Repository-To-Access-Database/src/test/java/com/sap/bulletinboard/ads/config/EmbeddedDatabaseConfig.java).
-- Now you can run the JUnit tests as described [in Exercise 4](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md).
+- Now you can run the JUnit tests as described [in Exercise 4](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md).
 
 **Explanation:** When the tests are started, the application is not initialized using the `AppInitializer`. The application context is initialized with all classes that are added as part of the `@ContextConfiguration` annotation (@see `AdvertisementControllerTest` class). As consequence the "cloud" profile isn't set in context of the test context. 
 
@@ -52,7 +52,7 @@ You might have the question why you need an extra Database configuration namely 
 We decided to use a separate configuration class for the tests as the tests do not run in a cloud-like environment. Even though the configuration classes look very similar, the main difference is that the `CloudDatabaseConfig` extends from the `AbstractCloudConfig` class that expects a cloud environment. A cloud environment is only detected if the `VCAP_APPLICATION` and `VCAP_SERVICES` variables are set. To make that more explicit, we have annotated the `CloudDatabaseConfig` class with `@Profile("cloud")` i.e. it gets only loaded when "cloud" is set as active profile.
 
 ## [Optional] Step 5: Check ID for updates
-If you have implemented the PUT Request according to [Exercise 4-2](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_Part2_CreateAdditionalAdsEndpoints.md), make sure that the ID contained in the URL is same to the ID contained in the advertisement entity.
+If you have implemented the PUT Request according to [Exercise 4-2](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_Part2_CreateAdditionalAdsEndpoints.md), make sure that the ID contained in the URL is same to the ID contained in the advertisement entity.
 Therefore add a test that sends an PUT request for an entity with a different ID than what is specified in the URL.
 In the test assert that the server responds with a `Bad Request` (400) status code.
 You may add a `setId` method to the `Advertisement` class so that, in the tests, you can create advertisement entity instances with a specific ID.

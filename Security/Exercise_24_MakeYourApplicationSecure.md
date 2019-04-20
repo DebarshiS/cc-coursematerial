@@ -90,7 +90,7 @@ Now we have enabled security centrally on the web level as defined in `WebSecuri
 
 ## Step 3: Setup Security for Component Tests
 
-The service tests from [Exercise 4](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md) are not affected by the above changes. They are still running even if the configuration in `WebSecurityConfig` class is loaded into the application context. We strongly recommend you to **activate** security for your service level tests to automatically ensure that all of your application endpoints are protected against unauthorized access.  In this step you will learn to "fake" the security infrastructure, so that the Unit Tests can also test the security settings.
+The service tests from [Exercise 4](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md) are not affected by the above changes. They are still running even if the configuration in `WebSecurityConfig` class is loaded into the application context. We strongly recommend you to **activate** security for your service level tests to automatically ensure that all of your application endpoints are protected against unauthorized access.  In this step you will learn to "fake" the security infrastructure, so that the Unit Tests can also test the security settings.
 
 ### Activate Security
 - Similar to our changes in the `AppInitializer.onStartup()` method we also need to make sure, that `springSecurityFilterChain` bean is added as filter to Mock MVC in the `AdvertisementControllerTest` test class:
@@ -139,7 +139,7 @@ After...  ```get(AdvertisementController.PATH + "/" + id).header(HttpHeaders.AUT
 
 
 ### Run JUnit tests
-You can now run the JUnit tests as described [in Exercise 4](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md). They should succeed now.
+You can now run the JUnit tests as described [in Exercise 4](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md). They should succeed now.
 
 
 ## Step 5: Run and test the service locally

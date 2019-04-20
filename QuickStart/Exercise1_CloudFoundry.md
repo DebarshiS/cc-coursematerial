@@ -7,14 +7,14 @@ Get familiar with **[SAP Cloud Platform Cockpit for Cloud Foundry](https://help.
 
 
 ## Demo
-- <img src="https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Z_ReuseImages/images/information.jpg" height="20" alt="Video on video.sap.com"/> [Cloud Foundry Demo (CF Cockpit and CLI)](https://video.sap.com/media/t/1_74uuo41d) (25 minutes)
+- <img src="https://github.com/ccjavadev/cc-coursematerial/blob/master/Z_ReuseImages/images/information.jpg" height="20" alt="Video on video.sap.com"/> [Cloud Foundry Demo (CF Cockpit and CLI)](https://video.sap.com/media/t/1_74uuo41d) (25 minutes)
 
 ## Prerequisite Steps
 ### Request Trial Space on Cloud Foundry
 Get a Trial Space on the Cloud Foundry Instance, download and install Cloud Foundry Command Line Interface (CF CLI client) as described here as part of the [Getting Started](https://help.cf.sap.hana.ondemand.com/frameset.htm?b8ee7894fe0b4df5b78f61dd1ac178ee.html) section. Now a space has been created for your SAP user id in Cloud Foundry organization **trial**. 
 
 ### Download Java application
-Download a sample Java application `bulletinboard-ads ` from [here](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/QuickStart/bulletinboard-ads.war), which is packaged as **w**eb **ar**chive (war file). Store the .war file locally (remember the path to the file as you need this for a later step). Note that this Java application is a microservice for managing `Adertisements` and is part of a `Bulletinboard` business application. 
+Download a sample Java application `bulletinboard-ads ` from [here](https://github.com/ccjavadev/cc-coursematerial/blob/master/QuickStart/bulletinboard-ads.war), which is packaged as **w**eb **ar**chive (war file). Store the .war file locally (remember the path to the file as you need this for a later step). Note that this Java application is a microservice for managing `Adertisements` and is part of a `Bulletinboard` business application. 
 
 ### Set environment variables (Windows)
 Open the Command Prompt (cmd) via Windows Start Bar and enter the following commands in order to define the proxy settings to use the provided Cloud Foundry Command Line interface.

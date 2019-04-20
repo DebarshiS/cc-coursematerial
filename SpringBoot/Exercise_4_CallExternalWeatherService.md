@@ -97,7 +97,7 @@ public void setup() throws Exception {
 }
 ```
 ####  Run JUnit Tests in Eclipse
-As described here: [Exercise 1: Getting Started](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/SpringBoot/Exercise_1_SpringBoot_GettingStarted.md#step-7-run-junit-tests-in-eclipse). The JUnit test fail as desired, because the JSON Mapping isn't implemented; we have to map "main-temp" to "temperature". 
+As described here: [Exercise 1: Getting Started](https://github.com/ccjavadev/cc-coursematerial/blob/master/SpringBoot/Exercise_1_SpringBoot_GettingStarted.md#step-7-run-junit-tests-in-eclipse). The JUnit test fail as desired, because the JSON Mapping isn't implemented; we have to map "main-temp" to "temperature". 
 
 #### Implement JSON Mapping 
 Within your `Weather` class add the following method, which gets called by the JSON Parser for the property "main":
@@ -114,7 +114,7 @@ Finally execute your JUnit tests again. If you see a green bar, you are done.
 Test the REST Service [`http://localhost:8080/api/weather/now/Germany/Sinsheim`](http://localhost:8080/api/weather/now/Germany/Sinsheim) manually in the Browser or `Postman` chrome plugin. Enter also other city names...
 
 ## Step 5: Push and run in CF
-Before pushing the application to Cloud Foundry  as described in [Exercise 2: Deploy Microservice on CF](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/SpringBoot/Exercise_2_SpringBoot_DeployAdsOnCloudFoundry.md#step-3-push-your-service), the `WEATHER_SERVICE_KEY` needs to be configured as a system environment variable. This can easily be done in the `manifest.yml` file by adding another entry under `env`:
+Before pushing the application to Cloud Foundry  as described in [Exercise 2: Deploy Microservice on CF](https://github.com/ccjavadev/cc-coursematerial/blob/master/SpringBoot/Exercise_2_SpringBoot_DeployAdsOnCloudFoundry.md#step-3-push-your-service), the `WEATHER_SERVICE_KEY` needs to be configured as a system environment variable. This can easily be done in the `manifest.yml` file by adding another entry under `env`:
 ```
 env:
     WEATHER_SERVICE_KEY: '4a7dc30e87b625da187ba9b39758dcb7'

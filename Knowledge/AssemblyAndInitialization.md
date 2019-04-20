@@ -19,7 +19,7 @@ The main purpose of the `AppInitializer.onStartup` is the configuration of the *
 * In Spring Web MVC the `DispatcherServlet` is the single entry point of a Web application, it registers itself for the URL pattern "/*" that means that the servlet container forwards all requests for any URL pattern to this single `DispatcherServlet`.
 * `ServletFilters` such as "RequestLoggingFilter" or "springSecurityFilterChain" are Spring Web MVC independent and need to be registered explicitly.
 
-![](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Z_ReuseImages/images/Tomcat_DeployAndInitApp.png)
+![](https://github.com/ccjavadev/cc-coursematerial/blob/master/Z_ReuseImages/images/Tomcat_DeployAndInitApp.png)
 
 # Flow of an incoming REST Request in general
 Assume the incoming request is: `http://localhost:8080/api/v1/ads/3`.

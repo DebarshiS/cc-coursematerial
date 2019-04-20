@@ -30,7 +30,7 @@ Some criterias
 - Technology stack
 
 ### Positioning of SAP CP Cloud Foundry versus Neo
-- [Detailed Positioning and Dev Guideline for SAP CP Cloud Foundry versus Neo](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Knowledge/HCP_CF%40HCP_Application_Provider_final.pdf)
+- [Detailed Positioning and Dev Guideline for SAP CP Cloud Foundry versus Neo](https://github.com/ccjavadev/cc-coursematerial/blob/master/Knowledge/HCP_CF%40HCP_Application_Provider_final.pdf)
 - Have a look at the [One CP Platform Guide](https://wiki.wdf.sap.corp/wiki/display/ONEHCP/Platform+Guide)  
 
 ## Further references

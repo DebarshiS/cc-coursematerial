@@ -64,6 +64,6 @@ In the terminal run `eclipse -clearPersistedState` (helps in most cases) or `ecl
    - Update Maven Project: `ALT+F5`, check **"Force Update of Snapshots/Releases"**
 
 Please also write down your experiences in this issue (and re-open it):
-https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/issues/87
+https://github.com/ccjavadev/cc-coursematerial/issues/87
 
 

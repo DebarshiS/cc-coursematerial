@@ -1,6 +1,6 @@
 # Trainer Guide
 
-This [wiki](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/wiki/Trainer-Guide) contains links to information for trainers and content developers.
+This [wiki](https://github.com/ccjavadev/cc-coursematerial/wiki/Trainer-Guide) contains links to information for trainers and content developers.
 
 
 

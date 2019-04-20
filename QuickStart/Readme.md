@@ -1,4 +1,4 @@
-# <img src="https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Z_ReuseImages/images/yourTurn.jpg" width="100" alt="Deploy and Test Cloud Foundry application"/>Deploy and Test a Cloud Foundry application 
+# <img src="https://github.com/ccjavadev/cc-coursematerial/blob/master/Z_ReuseImages/images/yourTurn.jpg" width="100" alt="Deploy and Test Cloud Foundry application"/>Deploy and Test a Cloud Foundry application 
 Help yourself with the following Exercises to get some insights and practical experience into a Cloud Foundry application even as a non-techie.
 
 The basic idea here is to push a very simple Java application to Cloud Foundry and to test the REST API afterwards with a Rest client such as `Postman`.
@@ -12,4 +12,4 @@ The basic idea here is to push a very simple Java application to Cloud Foundry a
 ### Important: 
 As you deploy an application and use a database service instance in Cloud Foundry on AWS infrastructure which generate costs for SAP, we ask you to delete your deployment and service in [Exercise 4](Exercise4_CleanUp.md). Thank you.
 
-### You're interested in the full version of the cloud application course? Please enter [here](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/wiki).
+### You're interested in the full version of the cloud application course? Please enter [here](https://github.com/ccjavadev/cc-coursematerial/wiki).

@@ -120,7 +120,7 @@ We need to instantiate the JPA implementation (such as EclipseLink) to get conne
 
 Services can be predefined as a Cloud Foundry Backing Service in your CF instance, or you can expose existing services hosted elsewhere as 'User Provided Service' and then connect to it the same way as to predefined services. 
 
-See the [User Provided Service](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/Knowledge/UserProvidedService.md) page for details.
+See the [User Provided Service](https://github.com/ccjavadev/cc-coursematerial/blob/master/Knowledge/UserProvidedService.md) page for details.
 
 
 ## Cloud Foundry Demo

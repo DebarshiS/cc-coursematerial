@@ -4,7 +4,7 @@ Exercise 3: Create Advertisement Endpoints
 ## Learning Goal
 After this exercise you will have a more detailed understanding of REST basics (header, body, entity, status code). You will see how easy it is to build RESTful Web services using Spring Web MVC. You will benefit from the JSON conversion provided by [Jackson](../Knowledge/JSONConversion.md).
 
-The task in this exercise is to implement the REST-services with responses as defined below. From now on we will return JSON, i.e. the response type should always be `application/json`. Note that by choosing a combination of Spring WebMVC and the specific JSON converter, our standard response type will actually be `application/json;charset=UTF-8`  (you will spot that in the tests created in [Exercise 4](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md)).
+The task in this exercise is to implement the REST-services with responses as defined below. From now on we will return JSON, i.e. the response type should always be `application/json`. Note that by choosing a combination of Spring WebMVC and the specific JSON converter, our standard response type will actually be `application/json;charset=UTF-8`  (you will spot that in the tests created in [Exercise 4](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_4_CreateServiceTests.md)).
 
 | HTTP Verb |  CRUD      | collection/unspecific (e.g. `/api/v1/ads/`)   | specific item (e.g. `/api/v1/ads/0`)|   
 | ----------- | ---------- | ------------------------------------ | ------------------------------------- |
@@ -70,14 +70,14 @@ UriComponents uriComponents = uriComponentsBuilder.path(PATH + "/{id}").buildAnd
 HttpHeaders headers = new HttpHeaders();
 headers.setLocation(new URI(uriComponents.getPath()));
 ```
-- Choose a trivial method of generating an ID, e.g. via static counter or by examining the size of the hash map. We will replace the map with database persistence in [Exercise 8](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/ConnectDatabase/Exercise_8_Part1_ConfigurePersistence.md).
+- Choose a trivial method of generating an ID, e.g. via static counter or by examining the size of the hash map. We will replace the map with database persistence in [Exercise 8](https://github.com/ccjavadev/cc-coursematerial/blob/master/ConnectDatabase/Exercise_8_Part1_ConfigurePersistence.md).
 - Find a sample solution [here](https://github.com/ccjavadev/cc-bulletinboard-ads-spring-webmvc/blob/solution-3-Create-Ads-Endpoints/src/main/java/com/sap/bulletinboard/ads/controllers/AdvertisementController.java). Note: The sample solution represents the final solution after step 5.
 - Note that we offer a relative [URI-reference](https://tools.ietf.org/html/rfc3986#section-4.2) as location
 - Consider the `Troubleshooting` section below.
 - Use the `AdvertisementList` class instead of `Iterable<Advertisement>` as collection of Advertisements. With that we are able to expose the JSON as recommended in [SAP's Guidelines for Future REST API Harmonization](https://www.sap.com/documents/2017/12/ba1141bf-e37c-0010-82c7-eda71af511fa.html).
 
 ## Step 2: Run Microservice Locally
-As described here: [Exercise 1: Getting Started](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_1_GettingStarted.md)
+As described here: [Exercise 1: Getting Started](https://github.com/ccjavadev/cc-coursematerial/blob/master/CreateMicroservice/Exercise_1_GettingStarted.md)
 
 ## Step 3: Test using REST Client
 Test the REST Service `http://localhost:8080/api/v1/ads` manually in the browser using the `Postman` chrome plugin. 

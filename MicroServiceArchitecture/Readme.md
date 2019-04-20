@@ -26,7 +26,7 @@ For more details and guidance see the [Microservice Design](../MicroserviceDesig
 
 The picture below shows a more complex microservice application example (high level) in the domain of ecommerce. There are many huge systems that are basically structured this way. 
 
-[<img src="https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/MicroServiceArchitecture/images/MSLargeExample.png" height="350" alt="More complex example"/>]()
+[<img src="https://github.com/ccjavadev/cc-coursematerial/blob/master/MicroServiceArchitecture/images/MSLargeExample.png" height="350" alt="More complex example"/>]()
 
 #### Comments
 - All requests from mobile devices or browsers come through the router to the application.

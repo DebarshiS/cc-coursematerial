@@ -65,5 +65,5 @@ A good summary of sources for OutOfMemory exceptions and possible solutions is p
 
 ## Further Material
 - Watch [Recording at SAP Media Share](https://video.sap.com/media/t/1_4nj2lh3u/39197781)
-- [JMeter Example that test the secured bulletinboard-ads application](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/TestStrategy/JMeterPerformanceTestPlan_security.jmx)  
+- [JMeter Example that test the secured bulletinboard-ads application](https://github.com/ccjavadev/cc-coursematerial/blob/master/TestStrategy/JMeterPerformanceTestPlan_security.jmx)  
 (please that you need to adapt url, xsuaa client / secret)

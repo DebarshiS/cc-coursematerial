@@ -11,8 +11,8 @@ You will learn how to open a SSH tunnel to your application and connect and anal
 
 ## Prerequisites
 
-- Your application is deployed on Cloud Foundry and is bound to a `Postgresql` Backing Service as done in [Exercise 10](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/ConnectDatabase/Exercise_10_DeployAdsWithDBServiceOnCF.md).
-- Switch to Proxyless Environment as documented [here](https://github.wdf.sap.corp/cc-java-dev/cc-coursematerial/blob/master/LoggingTracing/Exercise_15_Debug_CF_Application.md).
+- Your application is deployed on Cloud Foundry and is bound to a `Postgresql` Backing Service as done in [Exercise 10](https://github.com/ccjavadev/cc-coursematerial/blob/master/ConnectDatabase/Exercise_10_DeployAdsWithDBServiceOnCF.md).
+- Switch to Proxyless Environment as documented [here](https://github.com/ccjavadev/cc-coursematerial/blob/master/LoggingTracing/Exercise_15_Debug_CF_Application.md).
 
 ## Step 1: Lookup Credentials for Postgresql
 
